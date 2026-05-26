@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import { NavDropdown } from "./NavDropdown";
-import { SiteEmailLink } from "@/components/SiteEmailLink";
 import {
   navServiceLinks,
   navLossTypeLinks,
@@ -96,8 +95,7 @@ export function Header() {
           />
         </nav>
 
-        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
-          <SiteEmailLink className="hidden min-h-[44px] items-center text-sm font-medium text-body hover:text-accent md:inline-flex" />
+        <div className="flex items-center gap-3">
           <Link
             href="/contact"
             className="hidden min-h-[44px] items-center rounded bg-accent px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#0d47a1] lg:inline-flex"
@@ -175,16 +173,9 @@ export function Header() {
                 </div>
               ))}
             </div>
-            <p className="mt-4 text-center text-sm text-body">
-              Email:{" "}
-              <SiteEmailLink
-                className="font-medium text-accent hover:underline"
-                onClick={closeMobile}
-              />
-            </p>
             <Link
               href="/contact"
-              className="mt-3 flex min-h-[44px] w-full items-center justify-center rounded bg-accent px-4 py-3 font-semibold text-white"
+              className="mt-4 flex min-h-[44px] w-full items-center justify-center rounded bg-accent px-4 py-3 font-semibold text-white"
               onClick={closeMobile}
             >
               Contact Us
