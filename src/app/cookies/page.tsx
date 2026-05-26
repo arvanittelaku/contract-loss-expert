@@ -2,7 +2,7 @@ import Link from "next/link";
 import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
-import { SITE_EMAIL } from "@/lib/site";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 import { COOKIE_CATEGORY_LABELS, CONSENT_POLICY_VERSION } from "@/lib/cookies/constants";
 
 export const metadata = createMetadata({
@@ -116,7 +116,7 @@ export default function CookiesPage() {
           <h2>Contact</h2>
           <p>
             Questions about cookies:{" "}
-            <a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a>. See also our{" "}
+            <SiteEmailLink className="text-accent hover:underline" />. See also our{" "}
             <Link href="/privacy">Privacy Policy</Link>.
           </p>
         </article>

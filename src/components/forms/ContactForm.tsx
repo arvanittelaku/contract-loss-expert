@@ -2,7 +2,7 @@
 
 import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
-import { SITE_EMAIL } from "@/lib/site";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 import { PhoneField, formatPhoneFromFormData } from "./PhoneField";
 
 const lossTypes = [
@@ -267,10 +267,7 @@ export function ContactForm() {
       {status === "error" && (
         <p className="text-sm text-red-600" role="alert">
           Something went wrong. Please try again or email{" "}
-          <a href={`mailto:${SITE_EMAIL}`} className="underline">
-            {SITE_EMAIL}
-          </a>
-          .
+          <SiteEmailLink className="underline" />.
         </p>
       )}
 

@@ -4,7 +4,7 @@ import { Section } from "@/components/Section";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
 import { ContactForm } from "@/components/forms/ContactForm";
-import { SITE_EMAIL } from "@/lib/site";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 export const metadata = createMetadata({
   title: "Instruct a Contract Loss Expert Witness | ContractLossExpert.com UK",
@@ -53,12 +53,7 @@ export default function ContactPage() {
             </ul>
             <p className="mt-6 text-sm text-body">
               Email us directly:{" "}
-              <a
-                href={`mailto:${SITE_EMAIL}`}
-                className="font-medium text-accent hover:underline"
-              >
-                {SITE_EMAIL}
-              </a>
+              <SiteEmailLink className="font-medium text-accent hover:underline" />
             </p>
           </aside>
         </div>

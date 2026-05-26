@@ -2,6 +2,7 @@ import Link from "next/link";
 import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 export const metadata = createMetadata({
   title: "Thank You | ContractLossExpert.com",
@@ -21,9 +22,13 @@ export default function ThankYouPage() {
       />
       <Section>
         <div className="mx-auto max-w-xl text-center">
+          <p className="text-body">
+            Questions? Email{" "}
+            <SiteEmailLink className="font-medium text-accent hover:underline" />.
+          </p>
           <Link
             href="/"
-            className="inline-flex min-h-[44px] items-center justify-center rounded bg-accent px-8 py-3 font-semibold text-white hover:bg-[#0d47a1]"
+            className="mt-8 inline-flex min-h-[44px] items-center justify-center rounded bg-accent px-8 py-3 font-semibold text-white hover:bg-[#0d47a1]"
           >
             Return to Homepage
           </Link>

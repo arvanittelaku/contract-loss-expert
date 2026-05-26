@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SITE_EMAIL } from "@/lib/site";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 import { CookieSettingsButton } from "@/components/cookies/CookieSettingsButton";
 
 const servicesCol = [
@@ -126,12 +126,8 @@ export function Footer() {
 
         <div className="mt-10 border-t border-white/20 pt-8">
           <p className="text-sm text-white/70">
-            <a
-              href={`mailto:${SITE_EMAIL}`}
-              className="font-medium text-white hover:underline"
-            >
-              {SITE_EMAIL}
-            </a>
+            <span className="text-white/80">Email: </span>
+            <SiteEmailLink className="font-medium text-white hover:underline" />
           </p>
           <p className="mt-3 text-sm text-white/60">
             ContractLossExpert.com connects solicitors with contract loss expert

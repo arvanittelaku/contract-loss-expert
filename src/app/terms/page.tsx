@@ -1,7 +1,7 @@
 import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
-import { SITE_EMAIL } from "@/lib/site";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 export const metadata = createMetadata({
   title: "Terms of Use | ContractLossExpert.com",
@@ -63,7 +63,7 @@ export default function TermsPage() {
           <h2>Contact</h2>
           <p>
             Questions about these terms:{" "}
-            <a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a>.
+            <SiteEmailLink className="text-accent hover:underline" />.
           </p>
 
           <p className="text-sm text-body/70">Last updated: May 2025</p>

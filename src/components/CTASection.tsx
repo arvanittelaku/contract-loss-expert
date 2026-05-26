@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 interface CTASectionProps {
   title?: string;
@@ -20,6 +21,10 @@ export function CTASection({
         >
           Instruct an Expert Witness
         </Link>
+        <p className="mt-6 text-sm text-white/90">
+          Or email{" "}
+          <SiteEmailLink className="font-semibold text-white underline decoration-white/50 underline-offset-2 hover:decoration-white" />
+        </p>
       </div>
     </section>
   );

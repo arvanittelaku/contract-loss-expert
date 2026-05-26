@@ -1,7 +1,7 @@
 import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
-import { SITE_EMAIL } from "@/lib/site";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 export const metadata = createMetadata({
   title: "Privacy Policy | ContractLossExpert.com",
@@ -21,7 +21,7 @@ export default function PrivacyPage() {
           <p>
             ContractLossExpert.com is the data controller for personal data
             submitted through this website. Contact:{" "}
-            <a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a>.
+            <SiteEmailLink className="text-accent hover:underline" />.
           </p>
 
           <h2>What Data We Collect</h2>
@@ -56,7 +56,8 @@ export default function PrivacyPage() {
             Under UK GDPR, you have the right to access, rectify, erase, restrict
             processing, object, and data portability. You may lodge a complaint
             with the Information Commissioner&apos;s Office (ICO). Contact us at{" "}
-            {SITE_EMAIL} to exercise your rights.
+            <SiteEmailLink className="text-accent hover:underline" /> to exercise your
+            rights.
           </p>
 
           <h2>Cookies & Analytics</h2>
