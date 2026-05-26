@@ -1,0 +1,47 @@
+import { notFound } from "next/navigation";
+import { createMetadata } from "@/lib/metadata";
+import { ContentPageTemplate } from "@/components/ContentPageTemplate";
+import { getSector, sectorSlugs } from "@/data/sectors";
+import { mergeSectorLinks } from "@/lib/seo-internal-links";
+
+export function generateStaticParams() {
+  return sectorSlugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const page = getSector(slug);
+  if (!page) return {};
+  return createMetadata({
+    title: page.metaTitle,
+    description: page.metaDescription,
+    path: `/sectors/${slug}`,
+  });
+}
+
+export default async function SectorPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const page = getSector(slug);
+  if (!page) notFound();
+
+  return (
+    <ContentPageTemplate
+      page={page}
+      hubPath="/sectors"
+      relatedLinks={mergeSectorLinks(slug, page.relatedLinks)}
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Sectors", href: "/sectors" },
+        { label: page.title },
+      ]}
+    />
+  );
+}
