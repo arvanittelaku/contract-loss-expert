@@ -5,7 +5,7 @@ import { useCookieConsent } from "./CookieConsentContext";
 import { CookiePreferencesPanel } from "./CookiePreferencesPanel";
 
 /**
- * Fixed bottom banner — does not affect document flow (no CLS).
+ * Fixed bottom banner, does not affect document flow (no CLS).
  * Rendered only after hydration when consent is still pending.
  */
 export function CookieBanner() {

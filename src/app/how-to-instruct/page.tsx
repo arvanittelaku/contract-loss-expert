@@ -18,12 +18,12 @@ const steps = [
   {
     title: "Identify Loss Type",
     content:
-      "Lost profits? Wasted expenditure? Construction quantum? Professional negligence? Each determines which expert profile you need — forensic accountant, quantity surveyor, or economic damages specialist.",
+      "Lost profits? Wasted expenditure? Construction quantum? Professional negligence? Each determines which expert profile you need, forensic accountant, quantity surveyor, or economic damages specialist.",
   },
   {
     title: "Identify Sector",
     content:
-      "Construction? Technology? Supply chain? Financial services? Sector expertise matters — industry comparables and sector economics are central to loss quantification.",
+      "Construction? Technology? Supply chain? Financial services? Sector expertise matters, industry comparables and sector economics are central to loss quantification.",
   },
   {
     title: "Civil or Arbitration?",
@@ -152,10 +152,10 @@ export default function HowToInstructPage() {
                   Cost
                 </td>
                 <td className="border border-border px-4 py-3 text-body">
-                  Shared between parties — typically lower total cost
+                  Shared between parties, typically lower total cost
                 </td>
                 <td className="border border-border px-4 py-3 text-body">
-                  Each party bears own expert&apos;s fees — higher in aggregate
+                  Each party bears own expert&apos;s fees, higher in aggregate
                 </td>
               </tr>
               <tr>

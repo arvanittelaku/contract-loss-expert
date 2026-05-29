@@ -33,7 +33,7 @@ export function useCookieConsent(): CookieConsentContextValue {
   return ctx;
 }
 
-/** Optional hook for footer button — no throw if outside provider */
+/** Optional hook for footer button, no throw if outside provider */
 export function useCookieConsentOptional(): CookieConsentContextValue | null {
   return useContext(CookieConsentContext);
 }

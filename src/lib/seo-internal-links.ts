@@ -31,7 +31,7 @@ const QUALIFICATIONS: RelatedLink = {
 const GLOSSARY: RelatedLink = { href: "/glossary", label: "Glossary" };
 const GUIDES_HUB: RelatedLink = { href: "/guides", label: "Solicitor Guides" };
 
-/** Rule 2 — required links per case type slug */
+/** Rule 2, required links per case type slug */
 const CASE_TYPE_REQUIRED: Record<string, RelatedLink[]> = {
   "commercial-contract-breach": [
     { href: "/services#lost-profits", label: "Lost Profits Quantification" },
@@ -138,7 +138,7 @@ const CASE_TYPE_REQUIRED: Record<string, RelatedLink[]> = {
   ],
 };
 
-/** Rule 3 — required links per sector slug */
+/** Rule 3, required links per sector slug */
 const SECTOR_REQUIRED: Record<string, RelatedLink[]> = {
   "construction-engineering": [
     { href: "/case-types/construction-quantum-disputes", label: "Construction Quantum Disputes" },
@@ -198,7 +198,7 @@ const SECTOR_REQUIRED: Record<string, RelatedLink[]> = {
   ],
 };
 
-/** Rule 4 — baseline guide links (merged with per-guide data links) */
+/** Rule 4, baseline guide links (merged with per-guide data links) */
 const GUIDE_BASELINE: RelatedLink[] = [
   GUIDES_HUB,
   LOSS_TYPES,
@@ -207,7 +207,7 @@ const GUIDE_BASELINE: RelatedLink[] = [
   CONTACT,
 ];
 
-/** Rule 1 — pillar page related resources */
+/** Rule 1, pillar page related resources */
 export const LOSS_TYPES_RELATED_LINKS: RelatedLink[] = [
   { href: "/guides/lost-profits-but-for-methodology", label: "Lost Profits & But-For Guide" },
   { href: "/guides/wasted-expenditure-reliance-loss", label: "Wasted Expenditure & Reliance Guide" },

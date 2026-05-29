@@ -84,7 +84,7 @@ export function CookiePreferencesPanel({ onClose }: CookiePreferencesPanelProps)
 
         <div className="flex-1 overflow-y-auto px-5 py-4 sm:px-6">
           <ul className="space-y-4">
-            {/* Necessary — locked on */}
+            {/* Necessary, locked on */}
             <li className="rounded-[8px] border border-border bg-section-alt p-4">
               <div className="flex items-start justify-between gap-3">
                 <div>

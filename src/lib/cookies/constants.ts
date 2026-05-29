@@ -1,5 +1,5 @@
 export const CONSENT_STORAGE_KEY = "cle-cookie-consent";
-/** 12 months — common GDPR retention for consent records */
+/** 12 months, common GDPR retention for consent records */
 export const CONSENT_MAX_AGE_MS = 365 * 24 * 60 * 60 * 1000;
 export const CONSENT_POLICY_VERSION = "1.0";
 

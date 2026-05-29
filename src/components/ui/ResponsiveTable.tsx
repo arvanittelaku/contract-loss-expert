@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 /**
- * Horizontal scroll wrapper for wide tables — prevents page-level overflow on small screens.
+ * Horizontal scroll wrapper for wide tables, prevents page-level overflow on small screens.
  */
 export function ResponsiveTable({
   children,

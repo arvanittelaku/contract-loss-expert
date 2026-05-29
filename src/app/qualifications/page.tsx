@@ -44,9 +44,9 @@ export default function QualificationsPage() {
           <h3>Construction Quantum Experts</h3>
           <ul>
             <li>MRICS / FRICS (Royal Institution of Chartered Surveyors)</li>
-            <li>FCIArb (Fellow — Chartered Institute of Arbitrators)</li>
+            <li>FCIArb (Fellow, Chartered Institute of Arbitrators)</li>
             <li>PQS (Professional Quantity Surveyor)</li>
-            <li>MCIArb (Member — Chartered Institute of Arbitrators)</li>
+            <li>MCIArb (Member, Chartered Institute of Arbitrators)</li>
           </ul>
 
           <h2>Experience Requirements</h2>
@@ -64,7 +64,7 @@ export default function QualificationsPage() {
             witness owes an overriding duty to help the court on matters within
             their expertise. This duty overrides any obligation to the party
             instructing them. The expert must provide independent, objective
-            evidence — not act as an advocate for their client&apos;s case.
+            evidence, not act as an advocate for their client&apos;s case.
           </p>
           <p>
             In <em>The Ikarian Reefer</em> [1993], Cresswell J set out seven
@@ -86,7 +86,7 @@ export default function QualificationsPage() {
           <h2>Sector Expertise</h2>
           <p>
             The right contract loss expert must understand the sector&apos;s
-            economics — a construction quantum expert is not interchangeable
+            economics, a construction quantum expert is not interchangeable
             with a software contract loss expert. Industry comparables, margin
             structures, and trading patterns differ materially between sectors.
             We match experts to cases by sector as well as by loss type. Browse

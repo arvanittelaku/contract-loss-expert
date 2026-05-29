@@ -9,7 +9,7 @@ import { faqItems } from "@/data/faqs";
 export const metadata = createMetadata({
   title: "Contract Loss Expert Witness FAQ UK | Common Questions Answered",
   description:
-    "Answers to common questions about UK contract loss expert witnesses — but-for methodology, Hadley v Baxendale, wasted expenditure, CPR Part 35, and fees.",
+    "Answers to common questions about UK contract loss expert witnesses, but-for methodology, Hadley v Baxendale, wasted expenditure, CPR Part 35, and fees.",
   path: "/faq",
 });
 

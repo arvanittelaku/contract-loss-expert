@@ -5,7 +5,7 @@ import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 export const metadata = createMetadata({
   title: "Privacy Policy | ContractLossExpert.com",
-  description: "Privacy policy for ContractLossExpert.com — UK GDPR compliant.",
+  description: "Privacy policy for ContractLossExpert.com, UK GDPR compliant.",
   path: "/privacy",
   noindex: true,
   nofollow: false,

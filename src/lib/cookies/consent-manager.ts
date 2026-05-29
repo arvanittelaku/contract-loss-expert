@@ -25,7 +25,7 @@ function removeScript(key: ScriptKey): void {
   LOADED_SCRIPTS.delete(key);
 }
 
-/** Google Consent Mode v2 — update tags when user changes preferences */
+/** Google Consent Mode v2, update tags when user changes preferences */
 export function applyGoogleConsentMode(consent: CategoryConsent): void {
   if (typeof window === "undefined") return;
 
@@ -185,7 +185,7 @@ export function syncTrackingScripts(consent: CategoryConsent): void {
     clearAnalyticsCookies();
   }
 
-  // Marketing bucket: Meta, LinkedIn (GTM may also fire ads — consent mode handles Google)
+  // Marketing bucket: Meta, LinkedIn (GTM may also fire ads, consent mode handles Google)
   if (consent.marketing) {
     if (metaPixelId) loadMetaPixel(metaPixelId);
     if (linkedInId) loadLinkedInInsight(linkedInId);

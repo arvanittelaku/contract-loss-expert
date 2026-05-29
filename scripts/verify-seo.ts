@@ -23,7 +23,7 @@ async function main() {
     xml = await readFile(sitemapPath, "utf8");
   } catch {
     console.error(
-      "Missing public/sitemap.xml — run npm run seo:generate first."
+      "Missing public/sitemap.xml - run npm run seo:generate first."
     );
     process.exit(1);
   }

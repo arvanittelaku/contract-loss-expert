@@ -29,11 +29,11 @@ const serviceCards = [
 
 const stats = [
   ["Typical expert hourly rate", "£250–£600/hr", "Industry average"],
-  ["Governing rule — remoteness", "Hadley v Baxendale [1854]", "Contract law"],
+  ["Governing rule, remoteness", "Hadley v Baxendale [1854]", "Contract law"],
   ["Primary damage measure", "Expectation loss (but-for)", "Robinson v Harman [1848]"],
   ["Alternative measure", "Reliance loss / wasted expenditure", "Anglia TV v Reed [1972]"],
   ["Court framework", "CPR Part 35", "Civil Procedure Rules"],
-  ["Duty to mitigate", "Yes — claimant must minimise loss", "UK contract law"],
+  ["Duty to mitigate", "Yes, claimant must minimise loss", "UK contract law"],
   ["Arbitration frameworks", "LCIA, ICC, UNCITRAL", "As applicable"],
 ];
 
@@ -66,7 +66,7 @@ export default function HomePage() {
       <JsonLd data={homepageSchema} />
       <PageHero
         title="Contract Loss Expert Witness Services for UK Solicitors & Law Firms"
-        subtitle="When a contract is breached, the financial loss must be quantified with precision — and defended under cross-examination. We connect UK solicitors and barristers with qualified contract loss expert witnesses: forensic accountants, quantum experts, and economic damages specialists who produce CPR Part 35 compliant reports for courts, tribunals, and arbitration."
+        subtitle="When a contract is breached, the financial loss must be quantified with precision, and defended under cross-examination. We connect UK solicitors and barristers with qualified contract loss expert witnesses: forensic accountants, quantum experts, and economic damages specialists who produce CPR Part 35 compliant reports for courts, tribunals, and arbitration."
       />
       <Section>
         <div className="text-center">
@@ -139,7 +139,7 @@ export default function HomePage() {
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <Card
             title="Types of Contract Loss"
-            description="Expectation, reliance, and consequential loss — the pillar guide for UK solicitors."
+            description="Expectation, reliance, and consequential loss, the pillar guide for UK solicitors."
             href="/loss-types"
           />
           <Card
@@ -190,7 +190,7 @@ export default function HomePage() {
             <strong className="text-heading">contract loss expert witness</strong>{" "}
             is a qualified financial professional retained to provide an
             independent, court-admissible opinion on financial losses arising
-            from breach of contract — quantifying expectation damages, reliance
+            from breach of contract, quantifying expectation damages, reliance
             loss, and consequential loss using but-for methodology and CPR Part
             35 compliant reports.
           </p>

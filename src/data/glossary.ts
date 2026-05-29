@@ -13,7 +13,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Allied Maples Principle (Loss of Chance)",
     definition:
-      "From Allied Maples Group Ltd v Simmons & Simmons [1995] 1 WLR 1602: where a defendant's negligence deprives the claimant of the chance to obtain a benefit from a third party, damages reflect the value of the chance lost — expressed as a percentage probability multiplied by the full benefit. Central to solicitor negligence and professional negligence loss quantification.",
+      "From Allied Maples Group Ltd v Simmons & Simmons [1995] 1 WLR 1602: where a defendant's negligence deprives the claimant of the chance to obtain a benefit from a third party, damages reflect the value of the chance lost, expressed as a percentage probability multiplied by the full benefit. Central to solicitor negligence and professional negligence loss quantification.",
     link: {
       href: "/guides/professional-negligence-loss-quantification",
       label: "Professional Negligence Loss Guide",
@@ -41,12 +41,12 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Commercial Agents Regulations 1993",
     definition:
-      "The Commercial Agents (Council Directive) Regulations 1993, which provide compensation or indemnity rights to commercial agents on termination of agency agreements. Regulation 17 compensation is typically calculated based on the value of the agency — often two years' average annual commission — requiring expert quantification of commission history and goodwill.",
+      "The Commercial Agents (Council Directive) Regulations 1993, which provide compensation or indemnity rights to commercial agents on termination of agency agreements. Regulation 17 compensation is typically calculated based on the value of the agency, often two years' average annual commission, requiring expert quantification of commission history and goodwill.",
   },
   {
     term: "Consequential Loss",
     definition:
-      "Loss beyond the direct loss of bargain — additional losses flowing from the breach, such as third-party contract losses or business disruption costs. Recoverable only if within Hadley v Baxendale remoteness: either arising naturally from the breach or within the parties' reasonable contemplation at contracting.",
+      "Loss beyond the direct loss of bargain, additional losses flowing from the breach, such as third-party contract losses or business disruption costs. Recoverable only if within Hadley v Baxendale remoteness: either arising naturally from the breach or within the parties' reasonable contemplation at contracting.",
     link: {
       href: "/loss-types#consequential-loss",
       label: "Consequential Loss Explained",
@@ -69,7 +69,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Disruption (Construction)",
     definition:
-      "Loss of productivity in construction works caused by events such as variations, crowding, or out-of-sequence working — distinct from prolongation. Quantified by comparing planned labour productivity with actual productivity, using techniques such as measured mile analysis. Requires specific causal evidence; global disruption claims are vulnerable to challenge.",
+      "Loss of productivity in construction works caused by events such as variations, crowding, or out-of-sequence working, distinct from prolongation. Quantified by comparing planned labour productivity with actual productivity, using techniques such as measured mile analysis. Requires specific causal evidence; global disruption claims are vulnerable to challenge.",
     link: {
       href: "/case-types/construction-quantum-disputes",
       label: "Construction Quantum Disputes",
@@ -89,7 +89,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Expectation Damages",
     definition:
-      "Damages that place the claimant in the position they would have been in had the contract been performed — the primary measure of contract damages per Robinson v Harman [1848]. Typically quantified as lost profits using but-for analysis. Also called expectation loss or benefit of the bargain damages.",
+      "Damages that place the claimant in the position they would have been in had the contract been performed, the primary measure of contract damages per Robinson v Harman [1848]. Typically quantified as lost profits using but-for analysis. Also called expectation loss or benefit of the bargain damages.",
     link: {
       href: "/loss-types",
       label: "Types of Contract Loss",
@@ -107,7 +107,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Force Majeure",
     definition:
-      "A contractual clause excusing performance where specified supervening events beyond the parties' control prevent performance. Force majeure is a contractual construct — not a free-standing common law doctrine in England and Wales. Quantum experts may address whether an FM event caused the loss claimed and what proportion of loss is attributable to FM versus breach.",
+      "A contractual clause excusing performance where specified supervening events beyond the parties' control prevent performance. Force majeure is a contractual construct, not a free-standing common law doctrine in England and Wales. Quantum experts may address whether an FM event caused the loss claimed and what proportion of loss is attributable to FM versus breach.",
   },
   {
     term: "Hadley v Baxendale [1854]",
@@ -136,12 +136,12 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Joint Statement (Expert Witnesses)",
     definition:
-      "A document produced after a meeting between opposing experts under CPR Part 35, recording areas of agreement and disagreement. Joint statements narrow trial issues and are typically ordered by the court. Experts must not reach inappropriate compromises on opinion — disagreements should be clearly and precisely stated.",
+      "A document produced after a meeting between opposing experts under CPR Part 35, recording areas of agreement and disagreement. Joint statements narrow trial issues and are typically ordered by the court. Experts must not reach inappropriate compromises on opinion, disagreements should be clearly and precisely stated.",
   },
   {
     term: "Loss and Expense (Construction)",
     definition:
-      "The JCT term for financial compensation due to the contractor for direct loss and/or expense caused by employer risk events. Distinct from damages at common law — entitlement arises from the contract. Quantum experts quantify loss and expense items that are contractually entitled and properly notified.",
+      "The JCT term for financial compensation due to the contractor for direct loss and/or expense caused by employer risk events. Distinct from damages at common law, entitlement arises from the contract. Quantum experts quantify loss and expense items that are contractually entitled and properly notified.",
   },
   {
     term: "Loss of Chance",
@@ -169,7 +169,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Prolongation (Construction)",
     definition:
-      "Additional costs incurred when a construction project is delayed beyond the planned completion date — extended site overheads, preliminaries, plant hire, and supervision. Linked to the delay analysis establishing the period of excusable delay. Distinct from disruption, which addresses loss of productivity.",
+      "Additional costs incurred when a construction project is delayed beyond the planned completion date, extended site overheads, preliminaries, plant hire, and supervision. Linked to the delay analysis establishing the period of excusable delay. Distinct from disruption, which addresses loss of productivity.",
     link: {
       href: "/guides/construction-quantum-expert-guide",
       label: "Construction Quantum Guide",
@@ -183,7 +183,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Reliance Loss",
     definition:
-      "Damages that return the claimant to the position they would have been in had the contract never been made — typically quantified as wasted expenditure incurred in reliance on the contract. An alternative to expectation damages, subject to the bad bargain defence. Governed by authorities including Anglia Television Ltd v Reed [1972].",
+      "Damages that return the claimant to the position they would have been in had the contract never been made, typically quantified as wasted expenditure incurred in reliance on the contract. An alternative to expectation damages, subject to the bad bargain defence. Governed by authorities including Anglia Television Ltd v Reed [1972].",
     link: {
       href: "/guides/wasted-expenditure-reliance-loss",
       label: "Wasted Expenditure & Reliance Guide",
@@ -192,7 +192,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Remoteness",
     definition:
-      "The legal limit on recoverable damages — losses must satisfy the Hadley v Baxendale test. Losses too remote are not recoverable regardless of their size. Expert witnesses structure reports to address remoteness for each head of loss, separating direct from consequential categories and identifying the supporting limb.",
+      "The legal limit on recoverable damages, losses must satisfy the Hadley v Baxendale test. Losses too remote are not recoverable regardless of their size. Expert witnesses structure reports to address remoteness for each head of loss, separating direct from consequential categories and identifying the supporting limb.",
     link: {
       href: "/guides/hadley-v-baxendale-remoteness-guide",
       label: "Hadley v Baxendale Guide",

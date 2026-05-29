@@ -10,7 +10,7 @@ export const metadata = createMetadata({
   title:
     "Our Contract Loss Expert Witnesses | UK Forensic Accountants & Quantum Experts",
   description:
-    "ContractLossExpert.com connects UK solicitors with qualified contract loss expert witnesses — forensic accountants, quantum surveyors, and economic damages specialists.",
+    "ContractLossExpert.com connects UK solicitors with qualified contract loss expert witnesses, forensic accountants, quantum surveyors, and economic damages specialists.",
   path: "/experts",
 });
 
@@ -28,7 +28,7 @@ export default function ExpertsPage() {
       />
       <PageHero
         title="Our Contract Loss Expert Witnesses"
-        subtitle="We connect UK solicitors and barristers with qualified forensic accountants, chartered quantity surveyors, and economic damages specialists — matched by loss type, sector, and forum."
+        subtitle="We connect UK solicitors and barristers with qualified forensic accountants, chartered quantity surveyors, and economic damages specialists, matched by loss type, sector, and forum."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Experts" }]}
       />
       <Section>

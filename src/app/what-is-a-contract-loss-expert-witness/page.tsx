@@ -36,9 +36,8 @@ export default function WhatIsPage() {
         <article className="prose-content mx-auto max-w-3xl">
           <h2>Definition</h2>
           <p>
-            A contract loss expert witness is a qualified financial professional
-            — typically a forensic accountant, chartered quantity surveyor, or
-            economic damages specialist — retained to provide an independent,
+            A contract loss expert witness is a qualified financial professional, typically a forensic accountant, chartered quantity surveyor, or
+            economic damages specialist, retained to provide an independent,
             court-admissible opinion on the financial losses suffered as a result
             of a breach of contract. Their role is to quantify the loss in a way
             that can withstand scrutiny, cross-examination, and the legal tests of
@@ -68,17 +67,17 @@ export default function WhatIsPage() {
             </li>
           </ul>
 
-          <h2>The Core Legal Framework — Hadley v Baxendale</h2>
+          <h2>The Core Legal Framework, Hadley v Baxendale</h2>
           <p>
             The recoverable loss for breach of contract is governed by the
             two-limb rule in <em>Hadley v Baxendale</em> [1854]:
           </p>
           <p>
-            <strong>Limb 1 — Direct Loss:</strong> losses arising naturally from
+            <strong>Limb 1, Direct Loss:</strong> losses arising naturally from
             the breach in the ordinary course of things.
           </p>
           <p>
-            <strong>Limb 2 — Consequential Loss:</strong> losses within the
+            <strong>Limb 2, Consequential Loss:</strong> losses within the
             reasonable contemplation of both parties at the time of contracting
             as the probable result of the breach.
           </p>
@@ -92,12 +91,12 @@ export default function WhatIsPage() {
             .
           </p>
 
-          <h2>Three Types of Loss — What Expert Witnesses Quantify</h2>
+          <h2>Three Types of Loss, What Expert Witnesses Quantify</h2>
           <h3>Expectation Loss (most common)</h3>
           <p>
             Places the claimant in the position they would have been in had the
             contract been performed. Typically quantified as lost profits using
-            the but-for methodology — comparing actual financial performance with
+            the but-for methodology, comparing actual financial performance with
             the projected performance had the contract been honoured. See{" "}
             <Link href="/loss-types">types of contract loss</Link>.
           </p>
@@ -110,7 +109,7 @@ export default function WhatIsPage() {
           </p>
           <h3>Consequential Loss</h3>
           <p>
-            Additional losses beyond the direct loss of bargain — such as loss of
+            Additional losses beyond the direct loss of bargain, such as loss of
             a third-party contract caused by the breach. Must pass the Hadley v
             Baxendale remoteness test. Expert witnesses assess and quantify each
             head of consequential loss separately.
@@ -121,7 +120,7 @@ export default function WhatIsPage() {
             The but-for test asks: but for the breach, what would the financial
             position of the claimant have been? Expert witnesses construct a
             counterfactual financial model using pre-breach data, market
-            conditions, and management projections to establish this baseline —
+            conditions, and management projections to establish this baseline, 
             then compare it to the actual post-breach performance. Read our{" "}
             <Link href="/guides/lost-profits-but-for-methodology">
               but-for methodology guide

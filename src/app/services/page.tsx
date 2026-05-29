@@ -47,7 +47,7 @@ export default function ServicesPage() {
       />
       <PageHero
         title="Contract Loss Expert Witness Services"
-        subtitle="From lost profits quantification and wasted expenditure analysis to construction quantum claims and professional negligence damages — our UK experts produce CPR Part 35 compliant reports for every type of contract loss dispute."
+        subtitle="From lost profits quantification and wasted expenditure analysis to construction quantum claims and professional negligence damages, our UK experts produce CPR Part 35 compliant reports for every type of contract loss dispute."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },
@@ -106,8 +106,7 @@ export default function ServicesPage() {
           ,{" "}
           <Link href="/case-types" className="text-accent hover:underline">
             case types
-          </Link>
-          , and{" "}
+          </Link>, and{" "}
           <Link href="/contact" className="text-accent hover:underline">
             instruct an expert
           </Link>

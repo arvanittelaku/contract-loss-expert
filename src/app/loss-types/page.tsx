@@ -13,12 +13,12 @@ export const metadata = createMetadata({
   title:
     "Types of Contract Loss UK | Expectation, Reliance & Wasted Expenditure Explained",
   description:
-    "The main types of loss recoverable for breach of contract in UK litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss — explained for solicitors.",
+    "The main types of loss recoverable for breach of contract in UK litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss, explained for solicitors.",
   path: "/loss-types",
 });
 
 const pageDescription =
-  "The main types of loss recoverable for breach of contract in UK litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss — explained for solicitors.";
+  "The main types of loss recoverable for breach of contract in UK litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss, explained for solicitors.";
 
 export default function LossTypesPage() {
   const schemas = [
@@ -40,7 +40,7 @@ export default function LossTypesPage() {
       <JsonLd data={schemas} />
       <PageHero
         title="Types of Contract Loss: What UK Courts Allow You to Recover"
-        subtitle="The definitive UK guide to expectation damages, reliance loss, wasted expenditure, consequential loss, and the but-for methodology — for solicitors instructing contract loss expert witnesses."
+        subtitle="The definitive UK guide to expectation damages, reliance loss, wasted expenditure, consequential loss, and the but-for methodology, for solicitors instructing contract loss expert witnesses."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Loss Types" },
@@ -50,7 +50,7 @@ export default function LossTypesPage() {
         <article className="prose-content mx-auto max-w-3xl">
           <p>
             When a contract is breached, the innocent party&apos;s recoverable
-            loss is not a single figure — it is a legal construct built from
+            loss is not a single figure, it is a legal construct built from
             distinct categories of damage, each with its own case law,
             quantification methodology, and defences. This guide explains the
             main types of contract loss recoverable in UK litigation and how{" "}
@@ -64,7 +64,7 @@ export default function LossTypesPage() {
           <p>
             The overarching goal of contract damages in UK law is to put the
             innocent party in the position they would have been in had the
-            contract been performed — as stated in{" "}
+            contract been performed, as stated in{" "}
             <em>Robinson v Harman</em> [1848] 1 Ex 850. This is the expectation
             interest. Every head of loss claimed must ultimately serve this
             compensatory principle, subject to the limits of remoteness (
@@ -90,7 +90,7 @@ export default function LossTypesPage() {
                 <td>Expectation Loss</td>
                 <td>Robinson v Harman [1848]</td>
                 <td>Position if contract performed</td>
-                <td>Default — where profits can be calculated</td>
+                <td>Default, where profits can be calculated</td>
               </tr>
               <tr>
                 <td>Reliance Loss</td>
@@ -110,7 +110,7 @@ export default function LossTypesPage() {
 
           <h2 id="expectation-loss">1. Expectation Loss (Lost Profits)</h2>
           <p>
-            Expectation loss is the primary measure of contract damages — what
+            Expectation loss is the primary measure of contract damages, what
             the claimant would have earned had the contract been performed,
             minus what they actually earned (or will earn) following the
             breach. It represents the net loss of expected profit on the
@@ -118,10 +118,10 @@ export default function LossTypesPage() {
           </p>
           <p>
             <strong>Quantification methodology:</strong> Expert witnesses
-            follow a three-step process. Step 1 — establish the but-for
+            follow a three-step process. Step 1, establish the but-for
             position (projected performance had the contract been performed).
-            Step 2 — establish the actual position (actual financial
-            performance post-breach). Step 3 — calculate the difference (the
+            Step 2, establish the actual position (actual financial
+            performance post-breach). Step 3, calculate the difference (the
             net loss of expected profit). See our guide on{" "}
             <Link href="/guides/lost-profits-but-for-methodology">
               lost profits and the but-for methodology
@@ -134,7 +134,7 @@ export default function LossTypesPage() {
           </p>
           <p>
             Financial models address growth rate assumptions, variable versus
-            fixed cost treatment, and sensitivity analysis on key assumptions —
+            fixed cost treatment, and sensitivity analysis on key assumptions, 
             essential where the defendant challenges the counterfactual
             projection under cross-examination.
           </p>
@@ -144,7 +144,7 @@ export default function LossTypesPage() {
             Reliance loss covers expenditure incurred by the claimant in reliance
             on the contract being performed that has been wasted as a result of
             the breach. It returns the claimant to the position they would have
-            been in had the contract never been made — an alternative to
+            been in had the contract never been made, an alternative to
             expectation damages where profits cannot be calculated or where the
             claimant made a bad bargain.
           </p>
@@ -160,7 +160,7 @@ export default function LossTypesPage() {
             .
           </p>
           <p>
-            <strong>Defence — Bad Bargain:</strong> The defendant may argue that
+            <strong>Defence, Bad Bargain:</strong> The defendant may argue that
             even if the contract had been performed, the claimant would not have
             recovered its expenditure. The burden of proof is on the defendant
             to establish this. Expert witnesses must address the bad bargain
@@ -170,7 +170,7 @@ export default function LossTypesPage() {
           <h2 id="consequential-loss">3. Consequential Loss</h2>
           <p>
             Consequential loss comprises losses beyond the direct loss of
-            bargain — additional losses that flow from the breach. Each head
+            bargain, additional losses that flow from the breach. Each head
             must pass the Hadley v Baxendale two-limb test: Limb 1 (loss arising
             naturally from the breach) or Limb 2 (loss within the reasonable
             contemplation of both parties at contract formation).
@@ -231,7 +231,7 @@ export default function LossTypesPage() {
           <p>
             Courts award interest on damages from the date of loss to judgment
             under section 35A of the Senior Courts Act 1981. Expert witnesses
-            address the appropriate interest rate and compounding approach —
+            address the appropriate interest rate and compounding approach, 
             particularly important in long-running disputes where the loss
             occurred years before trial.
           </p>
@@ -239,23 +239,23 @@ export default function LossTypesPage() {
           <h2>Limitations on Recovery</h2>
           <ul>
             <li>
-              <strong>Remoteness</strong> —{" "}
+              <strong>Remoteness</strong>, {" "}
               <Link href="/guides/hadley-v-baxendale-remoteness-guide">
                 Hadley v Baxendale
               </Link>
             </li>
             <li>
-              <strong>Mitigation duty</strong> — claimant must minimise loss
+              <strong>Mitigation duty</strong>, claimant must minimise loss
             </li>
             <li>
-              <strong>Contributory negligence</strong> — rare in pure contract
+              <strong>Contributory negligence</strong>, rare in pure contract
               claims
             </li>
             <li>
               <strong>Contractual limitation and exclusion clauses</strong>
             </li>
             <li>
-              <strong>Penalty clause rule</strong> —{" "}
+              <strong>Penalty clause rule</strong>, {" "}
               <em>Cavendish Square</em> [2015] UKSC 67
             </li>
           </ul>

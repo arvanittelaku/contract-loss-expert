@@ -10,7 +10,7 @@ import { GlossarySearch } from "./GlossarySearch";
 export const metadata = createMetadata({
   title: "Contract Loss Expert Witness Glossary | Key UK Legal & Finance Terms",
   description:
-    "Definitions of key contract loss and expert witness terms for UK litigation — from but-for analysis to Hadley v Baxendale, wasted expenditure, and quantum.",
+    "Definitions of key contract loss and expert witness terms for UK litigation, from but-for analysis to Hadley v Baxendale, wasted expenditure, and quantum.",
   path: "/glossary",
 });
 
@@ -28,7 +28,7 @@ export default function GlossaryPage() {
       />
       <PageHero
         title="Contract Loss Expert Witness Glossary"
-        subtitle="Key UK legal and financial terms used in contract loss litigation and expert witness reports — from but-for analysis to Scott Schedules."
+        subtitle="Key UK legal and financial terms used in contract loss litigation and expert witness reports, from but-for analysis to Scott Schedules."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Glossary" }]}
       />
       <Section>
