@@ -29,7 +29,7 @@ const QUALIFICATIONS: RelatedLink = {
   label: "Expert Qualifications & CPR Part 35",
 };
 const GLOSSARY: RelatedLink = { href: "/glossary", label: "Glossary" };
-const GUIDES_HUB: RelatedLink = { href: "/guides", label: "Solicitor Guides" };
+const GUIDES_HUB: RelatedLink = { href: "/guides", label: "Legal Guides" };
 
 /** Rule 2, required links per case type slug */
 const CASE_TYPE_REQUIRED: Record<string, RelatedLink[]> = {

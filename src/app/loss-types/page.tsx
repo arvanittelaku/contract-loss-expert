@@ -11,14 +11,14 @@ import { articleSchema, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = createMetadata({
   title:
-    "Types of Contract Loss UK | Expectation, Reliance & Wasted Expenditure Explained",
+    "Types of Contract Loss | Expectation, Reliance & Wasted Expenditure Explained",
   description:
-    "The main types of loss recoverable for breach of contract in UK litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss, explained for solicitors.",
+    "The main types of loss recoverable for breach of contract in litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss, explained for legal practitioners.",
   path: "/loss-types",
 });
 
 const pageDescription =
-  "The main types of loss recoverable for breach of contract in UK litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss, explained for solicitors.";
+  "The main types of loss recoverable for breach of contract in litigation: expectation damages, reliance loss, wasted expenditure, and consequential loss, explained for legal practitioners.";
 
 export default function LossTypesPage() {
   const schemas = [
@@ -28,7 +28,7 @@ export default function LossTypesPage() {
     ]),
     articleSchema({
       headline:
-        "Types of Contract Loss: What UK Courts Allow You to Recover",
+        "Types of Contract Loss: What Courts Allow You to Recover",
       description: pageDescription,
       path: "/loss-types",
       aboutServiceId: "lost-profits",
@@ -39,8 +39,8 @@ export default function LossTypesPage() {
     <>
       <JsonLd data={schemas} />
       <PageHero
-        title="Types of Contract Loss: What UK Courts Allow You to Recover"
-        subtitle="The definitive UK guide to expectation damages, reliance loss, wasted expenditure, consequential loss, and the but-for methodology, for solicitors instructing contract loss expert witnesses."
+        title="Types of Contract Loss: What Courts Allow You to Recover"
+        subtitle="The definitive guide to expectation damages, reliance loss, wasted expenditure, consequential loss, and the but-for methodology, for legal practitioners instructing contract loss expert witnesses."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Loss Types" },
@@ -53,7 +53,7 @@ export default function LossTypesPage() {
             loss is not a single figure, it is a legal construct built from
             distinct categories of damage, each with its own case law,
             quantification methodology, and defences. This guide explains the
-            main types of contract loss recoverable in UK litigation and how{" "}
+            main types of contract loss recoverable in litigation and how{" "}
             <Link href="/what-is-a-contract-loss-expert-witness">
               contract loss expert witnesses
             </Link>{" "}
@@ -62,7 +62,7 @@ export default function LossTypesPage() {
 
           <h2>The Compensatory Principle</h2>
           <p>
-            The overarching goal of contract damages in UK law is to put the
+            The overarching goal of contract damages in law is to put the
             innocent party in the position they would have been in had the
             contract been performed, as stated in{" "}
             <em>Robinson v Harman</em> [1848] 1 Ex 850. This is the expectation
@@ -224,7 +224,7 @@ export default function LossTypesPage() {
             mitigate; whether those steps were taken; and what loss would have
             been avoided by proper mitigation. See{" "}
             <Link href="/glossary#duty-to-mitigate">duty to mitigate</Link> in our glossary and
-            our <Link href="/faq">FAQ</Link>.
+            our <Link href="/guides">legal guides</Link>.
           </p>
 
           <h2>Interest and the Time Value of Money</h2>

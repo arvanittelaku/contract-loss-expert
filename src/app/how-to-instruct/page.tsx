@@ -8,9 +8,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { ResponsiveTable } from "@/components/ui/ResponsiveTable";
 
 export const metadata = createMetadata({
-  title: "How to Instruct a Contract Loss Expert Witness UK | Step-by-Step Guide",
+  title: "How to Instruct a Contract Loss Expert Witness | Step-by-Step Guide",
   description:
-    "Step-by-step guide for UK solicitors on finding, vetting, and instructing the right contract loss expert witness. SJE and party-appointed expert explained.",
+    "Step-by-step guide for legal teams on finding, vetting, and instructing the right contract loss expert witness. SJE and party-appointed expert explained.",
   path: "/how-to-instruct",
 });
 
@@ -193,8 +193,8 @@ export default function HowToInstructPage() {
             CPR Part 35 qualifications
           </Link>
           ,{" "}
-          <Link href="/fees" className="text-accent hover:underline">
-            expert witness fees
+          <Link href="/how-to-instruct" className="text-accent hover:underline">
+            how to instruct an expert
           </Link>
           .
         </p>

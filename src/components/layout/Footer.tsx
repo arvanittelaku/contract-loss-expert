@@ -35,16 +35,13 @@ const caseTypesCol = [
 ];
 
 const resourcesCol = [
-  { href: "/guides", label: "Solicitor Guides" },
+  { href: "/guides", label: "Legal Guides" },
   { href: "/glossary", label: "Glossary" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/fees", label: "Fees Guide" },
   { href: "/how-to-instruct", label: "How to Instruct" },
   { href: "/loss-types", label: "Loss Types" },
 ];
 
 const aboutCol = [
-  { href: "/experts", label: "Our Experts" },
   { href: "/qualifications", label: "Qualifications" },
   { href: "/contact", label: "Contact Us" },
 ];
@@ -130,8 +127,8 @@ export function Footer() {
             <SiteEmailLink className="font-medium text-white hover:underline" />
           </p>
           <p className="mt-3 text-sm text-white/60">
-            ContractLossExpert.com connects solicitors with contract loss expert
-            witnesses. We are not a law firm and do not provide legal advice.
+            ContractLossExpert.com connects legal teams with contract loss expert
+            witnesses worldwide. We are not a law firm and do not provide legal advice.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-white/60">
             <Link href="/privacy" className="hover:text-white">
@@ -146,7 +143,7 @@ export function Footer() {
             <CookieSettingsButton />
           </div>
           <p className="mt-4 text-sm text-white/50">
-            © 2025 ContractLossExpert. England and Wales.
+            © 2025 ContractLossExpert.
           </p>
         </div>
       </div>

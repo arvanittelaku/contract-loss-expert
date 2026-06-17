@@ -43,7 +43,7 @@ const FOOTER_BY_SERVICE: Record<
   ],
   "expert-determination": [
     { href: "/how-to-instruct", label: "How to instruct an expert" },
-    { href: "/fees", label: "Expert witness fees" },
+    { href: "/qualifications", label: "Expert qualifications" },
   ],
 };
 

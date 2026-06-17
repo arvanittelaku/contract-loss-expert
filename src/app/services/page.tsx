@@ -16,9 +16,9 @@ import { ServiceFAQs } from "@/components/ServiceFAQs";
 import { faqPageSchema } from "@/lib/schema";
 
 export const metadata = createMetadata({
-  title: "Contract Loss Expert Witness Services UK | Full Service List",
+  title: "Contract Loss Expert Witness Services | Full Service List",
   description:
-    "UK contract loss expert witness services: lost profits analysis, wasted expenditure, construction quantum, consequential loss, and professional negligence damages.",
+    "Contract loss expert witness services: lost profits analysis, wasted expenditure, construction quantum, consequential loss, and professional negligence damages.",
   path: "/services",
 });
 
@@ -47,7 +47,7 @@ export default function ServicesPage() {
       />
       <PageHero
         title="Contract Loss Expert Witness Services"
-        subtitle="From lost profits quantification and wasted expenditure analysis to construction quantum claims and professional negligence damages, our UK experts produce CPR Part 35 compliant reports for every type of contract loss dispute."
+        subtitle="From lost profits quantification and wasted expenditure analysis to construction quantum claims and professional negligence damages, our experts produce court-ready expert reports for every type of contract loss dispute worldwide."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },

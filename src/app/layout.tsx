@@ -14,9 +14,9 @@ const inter = Inter({
 
 export const metadata: Metadata = createMetadata({
   title:
-    "Contract Loss Expert Witness UK | Lost Profits & Breach of Contract Damages",
+    "Contract Loss Expert Witness | Lost Profits & Breach of Contract Damages",
   description:
-    "Find a qualified contract loss expert witness in the UK. Forensic accountants and quantum experts for lost profits, wasted expenditure, and breach of contract damages. CPR Part 35 compliant.",
+    "Find qualified contract loss expert witnesses worldwide. Forensic accountants and quantum experts for lost profits, wasted expenditure, and breach of contract damages for courts, tribunals, and arbitration.",
   path: "/",
 });
 
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-GB" className={`${inter.variable} h-full`}>
+    <html lang="en" className={`${inter.variable} h-full`}>
       <body className="flex min-h-full flex-col antialiased">
         <CookieConsentRoot>
           <Header />

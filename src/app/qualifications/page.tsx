@@ -8,9 +8,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = createMetadata({
   title:
-    "Contract Loss Expert Witness Qualifications UK | ACA, CFA & Quantum Credentials",
+    "Contract Loss Expert Witness Qualifications | ACA, CFA & Quantum Credentials",
   description:
-    "What credentials should a UK contract loss expert witness hold? ACA, CFA, CFE, quantum surveyor credentials, and CPR Part 35 compliance explained.",
+    "What credentials should a contract loss expert witness hold? ACA, CFA, CFE, quantum surveyor credentials, and CPR Part 35 compliance explained.",
   path: "/qualifications",
 });
 
@@ -91,7 +91,7 @@ export default function QualificationsPage() {
             structures, and trading patterns differ materially between sectors.
             We match experts to cases by sector as well as by loss type. Browse
             our <Link href="/sectors">sector specialists</Link> and{" "}
-            <Link href="/experts">expert profiles</Link>.
+            <Link href="/qualifications">qualification requirements</Link>.
           </p>
         </article>
       </Section>

@@ -8,7 +8,7 @@ interface CTASectionProps {
 
 export function CTASection({
   title = "Ready to Instruct a Contract Loss Expert Witness?",
-  description = "Submit your case details and we will match you with a qualified UK forensic accountant, quantum surveyor, or economic damages specialist. CPR Part 35 compliant reports. Response within 1 business day.",
+  description = "Submit your case details and we will match you with a qualified forensic accountant, quantum surveyor, or economic damages specialist. Court-ready expert reports. Response within 1 business day.",
 }: CTASectionProps) {
   return (
     <section className="bg-accent py-14 md:py-16">

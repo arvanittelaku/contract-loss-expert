@@ -3,7 +3,7 @@ export const SITE_URL =
   "https://www.contractlossexpert.com";
 
 export const SITE_NAME = "ContractLossExpert";
-export const SITE_EMAIL = "info@contractlossexpert.com";
+export const SITE_EMAIL = "contact@contractlossexpert.com";
 export const LINKEDIN_URL =
   "https://www.linkedin.com/company/contract-loss-expert";
 

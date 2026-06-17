@@ -7,9 +7,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = createMetadata({
-  title: "What Is a Contract Loss Expert Witness? | UK Role & Definition",
+  title: "What Is a Contract Loss Expert Witness? | Role & Definition",
   description:
-    "A contract loss expert witness quantifies financial losses from breach of contract for UK courts. Expectation damages, reliance loss, but-for methodology and CPR Part 35 explained.",
+    "A contract loss expert witness quantifies financial losses from breach of contract for courts. Expectation damages, reliance loss, but-for methodology and CPR Part 35 explained.",
   path: "/what-is-a-contract-loss-expert-witness",
 });
 

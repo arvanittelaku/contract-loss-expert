@@ -4,13 +4,13 @@ export const sectors: ContentPage[] = [
   {
     slug: "construction-engineering",
     title: "Construction & Engineering",
-    h1: "Construction & Engineering Contract Loss Expert Witness UK",
+    h1: "Construction & Engineering Contract Loss Expert Witness",
     metaTitle:
-      "Construction Contract Loss Expert Witness UK | JCT, NEC & FIDIC Quantum",
+      "Construction Contract Loss Expert Witness | JCT, NEC & FIDIC Quantum",
     metaDescription:
-      "UK construction contract loss expert witnesses for JCT, NEC and FIDIC disputes, loss and expense, prolongation, disruption, Scott Schedules and TCC quantum evidence.",
+      "Construction contract loss expert witnesses for JCT, NEC and FIDIC disputes, loss and expense, prolongation, disruption, Scott Schedules and TCC quantum evidence.",
     paragraphs: [
-      "Construction and engineering disputes in the UK turn on precise quantum evidence. Whether the contract is JCT Design & Build, NEC4 Option C, or a FIDIC Red Book international works agreement, the financial consequences of delay, disruption, and variations must be quantified in a form that withstands adjudication, arbitration, and Technology and Construction Court scrutiny. Contract loss expert witnesses in this sector are typically chartered quantity surveyors (MRICS/FRICS) or forensic accountants with deep experience of loss and expense claims, prolongation costs, and global versus particularised claim presentation.",
+      "Construction and engineering disputes turn on precise quantum evidence. Whether the contract is JCT Design & Build, NEC4 Option C, or a FIDIC Red Book international works agreement, the financial consequences of delay, disruption, and variations must be quantified in a form that withstands adjudication, arbitration, and Technology and Construction Court scrutiny. Contract loss expert witnesses in this sector are typically chartered quantity surveyors (MRICS/FRICS) or forensic accountants with deep experience of loss and expense claims, prolongation costs, and global versus particularised claim presentation.",
       "Prolongation arises when a project runs beyond the contractual completion date, site overheads, supervision, plant hire, and preliminaries continue at the contractor's cost. Disruption is distinct: it captures the loss of productivity when works are performed out of sequence, in cramped conditions, or under changed methodologies. Expert witnesses quantify both heads separately, using programme records, cost accounts, and established disruption methodologies. Scott Schedules remain the standard vehicle in TCC proceedings for itemising each claim line, the responding party's position, and the expert's independent assessment.",
       "Infrastructure, civils, M&E, and fit-out disputes share common quantum challenges: establishing entitlement under the contract, linking delay or change events to cost, and addressing concurrent delay and mitigation. Adjudication often requires rapid quantum input within tight timetables; court and arbitration proceedings demand fuller CPR Part 35 reports with transparent assumptions. Sector-matched experts understand how construction accounts, valuations, and payment mechanisms interact with the pleaded case, ensuring the loss figure is both legally recoverable and evidentially robust.",
     ],
@@ -45,11 +45,11 @@ export const sectors: ContentPage[] = [
   {
     slug: "technology-software",
     title: "Technology & Software",
-    h1: "Technology & Software Contract Loss Expert Witness UK",
+    h1: "Technology & Software Contract Loss Expert Witness",
     metaTitle:
-      "Technology & Software Contract Loss Expert Witness UK | IT & SaaS Disputes",
+      "Technology & Software Contract Loss Expert Witness | IT & SaaS Disputes",
     metaDescription:
-      "Contract loss expert witnesses for UK technology disputes, failed IT implementation, SaaS breach, software licence misuse, agile milestone failure and business disruption quantum.",
+      "Contract loss expert witnesses for technology disputes, failed IT implementation, SaaS breach, software licence misuse, agile milestone failure and business disruption quantum.",
     paragraphs: [
       "Technology and software contract disputes rarely fit a simple lost-sales template. Failed ERP or CRM implementations, abandoned digital transformation programmes, and SaaS agreements terminated early generate complex heads of loss: wasted expenditure on licences, consultancy, and internal resource; operational disruption while legacy systems remain in place; and, where provable, the profit or efficiency gains the working system would have delivered. Expert witnesses analyse project governance records, statements of work, change requests, and acceptance criteria to determine whether the breach caused the failure and what financial remedy follows.",
       "Software licence disputes raise distinct quantum issues. Unlicensed deployment, breach of user or enterprise caps, and competitor use of proprietary code can trigger claims for unpaid fees, lost licence revenue, and reasonable royalty damages. Experts reconcile usage logs, deployment audits, and comparable licence transactions to establish the correct royalty base and rate. Agile and iterative delivery models add further complexity, milestone non-delivery, scope creep, and disputed definitions of 'done' must be mapped to contractual payment triggers and the expenditure incurred in reliance on promised delivery dates.",
@@ -86,15 +86,15 @@ export const sectors: ContentPage[] = [
   {
     slug: "supply-chain-manufacturing",
     title: "Supply Chain & Manufacturing",
-    h1: "Supply Chain & Manufacturing Contract Loss Expert Witness UK",
+    h1: "Supply Chain & Manufacturing Contract Loss Expert Witness",
     metaTitle:
-      "Supply Chain Contract Loss Expert Witness UK | Manufacturing & Force Majeure",
+      "Supply Chain Contract Loss Expert Witness | Manufacturing & Force Majeure",
     metaDescription:
-      "UK expert witnesses for supply chain and manufacturing contract loss, raw material non-delivery, production shutdown, customer penalties, inventory loss and force majeure quantum.",
+      "Qualified expert witnesses for supply chain and manufacturing contract loss, raw material non-delivery, production shutdown, customer penalties, inventory loss and force majeure quantum.",
     paragraphs: [
       "Manufacturing businesses depend on timely supply of raw materials, components, and sub-assemblies. When a supplier fails to deliver, delivers off-specification goods, or wrongfully invokes force majeure, the downstream financial impact can exceed the value of the undelivered goods itself: production lines stop, customer orders go unfulfilled, penalties accrue, and inventory strategies fail. Contract loss expert witnesses map the causal chain from supplier breach to each head of loss, applying Hadley v Baxendale remoteness and the duty to mitigate through alternative sourcing, rerouting, or spot-market purchase.",
       "Production shutdown losses are typically quantified as lost contribution margin on units that could not be manufactured and sold, multiplied by the verified production shortfall. Experts reconcile production schedules, bill of materials, capacity utilisation, and sales orders to establish what would have been produced but for the supply failure. Customer contract penalties, expediting costs, and scrap or rework of defective inputs are separate heads requiring documentary support and contractual entitlement analysis.",
-      "Force majeure disputes turn on whether the event relied upon actually caused the non-performance and whether the supplier took reasonable steps to resume supply. Quantum experts may be instructed to address the proportion of loss attributable to the FM event versus the supplier's own failures, and what loss would have been avoided had mitigation been pursued diligently. Global supply chain disruption, port closures, geopolitical events, commodity shocks, has made these analyses more frequent in UK commercial litigation and arbitration.",
+      "Force majeure disputes turn on whether the event relied upon actually caused the non-performance and whether the supplier took reasonable steps to resume supply. Quantum experts may be instructed to address the proportion of loss attributable to the FM event versus the supplier's own failures, and what loss would have been avoided had mitigation been pursued diligently. Global supply chain disruption, port closures, geopolitical events, commodity shocks, has made these analyses more frequent in commercial litigation and arbitration.",
     ],
     faqs: [
       {
@@ -128,11 +128,11 @@ export const sectors: ContentPage[] = [
   {
     slug: "financial-services-banking",
     title: "Financial Services & Banking",
-    h1: "Financial Services & Banking Contract Loss Expert Witness UK",
+    h1: "Financial Services & Banking Contract Loss Expert Witness",
     metaTitle:
-      "Financial Services Contract Loss Expert Witness UK | Mis-Selling & ISDA",
+      "Financial Services Contract Loss Expert Witness | Mis-Selling & ISDA",
     metaDescription:
-      "Contract loss expert witnesses for UK financial services disputes, mis-selling, investment mandate breach, ISDA close-out, prime brokerage and payment system failure quantum.",
+      "Contract loss expert witnesses for financial services disputes, mis-selling, investment mandate breach, ISDA close-out, prime brokerage and payment system failure quantum.",
     paragraphs: [
       "Financial services contract disputes demand experts who understand portfolio construction, regulatory conduct standards, and the documentation that governs institutional relationships. Mis-selling and unsuitable investment claims require comparison between the product or strategy actually implemented and the position the client would have held under a suitable alternative, often using benchmark indices, model portfolios, or agreed risk profiles. Breach of investment management mandate cases apply a but-for analysis: what return would the portfolio have achieved had the manager adhered to the agreed constraints on asset class, geography, concentration, and leverage.",
       "ISDA Master Agreement disputes frequently centre on the calculation of close-out amounts following an Event of Default. The non-defaulting party's termination statement must be commercially reasonable; experts assess mark-to-market valuations, discount curves, and whether the methodology applied aligns with the 2002 ISDA definitions and market practice at the close-out date. Prime brokerage, custody, and payment-system failures can trigger chain-reaction losses across trading books, requiring careful causation analysis between operational failure and trading loss.",
@@ -170,11 +170,11 @@ export const sectors: ContentPage[] = [
   {
     slug: "retail-consumer-goods",
     title: "Retail & Consumer Goods",
-    h1: "Retail & Consumer Goods Contract Loss Expert Witness UK",
+    h1: "Retail & Consumer Goods Contract Loss Expert Witness",
     metaTitle:
-      "Retail Contract Loss Expert Witness UK | Supply, Exclusivity & Delisting",
+      "Retail Contract Loss Expert Witness | Supply, Exclusivity & Delisting",
     metaDescription:
-      "UK contract loss experts for retail and FMCG disputes, supply agreement breach, exclusivity, wrongful delisting, promotional commitments and own-label product quantum.",
+      "Contract loss experts for retail and FMCG disputes, supply agreement breach, exclusivity, wrongful delisting, promotional commitments and own-label product quantum.",
     paragraphs: [
       "Retail and consumer goods disputes turn on margin economics, volume forecasts, and the commercial relationship between suppliers and retailers. When a supplier fails to deliver, the retailer's loss is typically the gross margin on products that could not be sold, calculated from contracted purchase price, actual or expected selling price, and sell-through volumes derived from historic trading data. Emergency sourcing at premium cost, lost promotional contributions, and shelf-space opportunity costs may form additional heads where the contract or Hadley v Baxendale contemplation supports recovery.",
       "Exclusivity and listing agreements create reciprocal obligations: suppliers may be granted exclusive shelf space or category rights; retailers may commit to minimum listings, promotional support, or notice periods before delisting. Wrongful delisting without contractual notice can entitle the supplier to lost profits for the remaining term, quantified using historic sales volumes, contribution margin, and network or category comparables. Own-label and branded product disputes may involve IP, formulation, or manufacturing exclusivity with overlapping quantum issues.",
@@ -212,11 +212,11 @@ export const sectors: ContentPage[] = [
   {
     slug: "professional-services",
     title: "Professional Services",
-    h1: "Professional Services Contract Loss Expert Witness UK",
+    h1: "Professional Services Contract Loss Expert Witness",
     metaTitle:
-      "Professional Services Contract Loss Expert Witness UK | Consulting & Law",
+      "Professional Services Contract Loss Expert Witness | Consulting & Law",
     metaDescription:
-      "Contract loss expert witnesses for UK professional services disputes, consulting agreements, law firm retainers, accountancy engagements, fee recovery and negligent advice quantum.",
+      "Contract loss expert witnesses for professional services disputes, consulting agreements, law firm retainers, accountancy engagements, fee recovery and negligent advice quantum.",
     paragraphs: [
       "Professional services firms, management consultants, law firms, accountants, and specialist advisers, operate on fee models that blend time-based billing, fixed fees, success fees, and minimum commitments. When a client wrongfully terminates an engagement or refuses payment for work properly performed, the firm's loss is the fees that would have been earned over the remaining contract term, adjusted for mitigation through redeployment of personnel to other matters. Experts analyse the engagement letter, budget, work-in-progress records, and utilisation data to quantify recoverable revenue and address the defendant's mitigation arguments.",
       "Conversely, where a client suffers loss from negligent professional advice, the quantum exercise aligns with professional negligence principles, including the SAAMCo scope-of-duty limit. The expert constructs a but-for counterfactual: what financial position would the client have been in had competent advice been given, compared to the actual outcome. Loss of chance methodology applies where the outcome depended on a third party's decision, such as whether a transaction would have completed or a court would have ruled favourably.",
@@ -254,15 +254,15 @@ export const sectors: ContentPage[] = [
   {
     slug: "energy-utilities",
     title: "Energy & Utilities",
-    h1: "Energy & Utilities Contract Loss Expert Witness UK",
+    h1: "Energy & Utilities Contract Loss Expert Witness",
     metaTitle:
-      "Energy Contract Loss Expert Witness UK | PPA, Take-or-Pay & Utilities",
+      "Energy Contract Loss Expert Witness | PPA, Take-or-Pay & Utilities",
     metaDescription:
-      "UK contract loss expert witnesses for energy and utilities disputes, power purchase agreements, take-or-pay, capacity payments, pipeline interconnect and renewable contract quantum.",
+      "Contract loss expert witnesses for energy and utilities disputes, power purchase agreements, take-or-pay, capacity payments, pipeline interconnect and renewable contract quantum.",
     paragraphs: [
       "Energy and utilities contracts are volume-driven, price-indexed, and often long-dated. Power purchase agreements (PPAs) lock in offtake prices for renewable and conventional generation; take-or-pay and ship-or-pay clauses oblige buyers to pay for contracted volumes whether or not they take delivery. When a counterparty breaches, by failing to deliver electricity, refusing off-take, or miscalculating indexation, the loss calculation must reflect market price movements, balancing mechanism costs, and the project's financing structure where the PPA underpins project finance covenants.",
       "Take-or-pay losses are calculated as the shortfall volume multiplied by the contract price, less the seller's avoided variable costs, giving the net loss from the buyer's failure to take or pay. Experts reconcile nomination records, meter data, and force majeure claims against the contractual volume commitments. Capacity payment, interconnect, and pipeline disputes raise similar issues: entitlement under the agreement, performance failures, and the market value of undelivered or mispriced energy at the relevant delivery points.",
-      "Renewable energy disputes, including curtailment, grid constraints, and performance ratio shortfalls, require specialists who understand generation profiles, subsidy regimes, and merchant tail exposure. Arbitration under ICC and LCIA rules is common in cross-border energy trades. UK experts produce quantum schedules and CPR Part 35 reports that translate physical delivery data and market curves into pleaded heads of loss.",
+      "Renewable energy disputes, including curtailment, grid constraints, and performance ratio shortfalls, require specialists who understand generation profiles, subsidy regimes, and merchant tail exposure. Arbitration under ICC and LCIA rules is common in cross-border energy trades. experts produce quantum schedules and CPR Part 35 reports that translate physical delivery data and market curves into pleaded heads of loss.",
     ],
     faqs: [
       {
@@ -294,11 +294,11 @@ export const sectors: ContentPage[] = [
   {
     slug: "media-entertainment-ip",
     title: "Media, Entertainment & IP",
-    h1: "Media, Entertainment & IP Contract Loss Expert Witness UK",
+    h1: "Media, Entertainment & IP Contract Loss Expert Witness",
     metaTitle:
-      "Media & Entertainment Contract Loss Expert Witness UK | Production & Music",
+      "Media & Entertainment Contract Loss Expert Witness | Production & Music",
     metaDescription:
-      "Contract loss expert witnesses for UK media disputes, production contract breach, talent agreements, distribution deals, music catalogue licences and streaming revenue quantum.",
+      "Contract loss expert witnesses for media disputes, production contract breach, talent agreements, distribution deals, music catalogue licences and streaming revenue quantum.",
     paragraphs: [
       "Media and entertainment contracts combine creative delivery obligations with complex revenue-sharing mechanics. Production agreements, for film, television, theatre, and digital content, tie payments to milestones, delivery dates, and distribution outcomes. When a co-producer, financier, or distributor breaches, the producer's loss is the profit that would have been earned from the completed production, built from budget, pre-sales, tax incentives, and projected exploitation revenues. Where a project is abandoned early, reliance loss on development spend and opportunity cost of diverted talent may be pleaded alongside lost upside.",
       "Distribution and format licence breaches affect territorial exclusivity, minimum guarantees, and marketing commitments. Talent and creator agreements raise wrongful termination, profit participation, and backend participation disputes requiring forensic analysis of collection statements, participation waterfalls, and industry-standard deal terms. Music catalogue and streaming disputes involve royalty audits, under-reporting of streams and downloads, and the value of exclusivity wrongfully retained by a distributor or label.",

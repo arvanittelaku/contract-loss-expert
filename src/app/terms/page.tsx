@@ -20,7 +20,7 @@ export default function TermsPage() {
           <h2>About This Service</h2>
           <p>
             ContractLossExpert.com is a referral and matching service that
-            connects UK solicitors, barristers, and law firms with qualified
+            connects legal teams, barristers, and law firms with qualified
             contract loss expert witnesses. We are not a law firm and do not
             provide legal advice.
           </p>
@@ -36,13 +36,13 @@ export default function TermsPage() {
           <p>
             We endeavour to match enquiries with suitably qualified experts based
             on the information provided. Final selection and instruction remain
-            the responsibility of the instructing solicitor.
+            the responsibility of the instructing party.
           </p>
 
           <h2>Fees</h2>
           <p>
             Expert witness fees are agreed directly between the instructing party
-            and the expert. We do not charge referral fees to solicitors unless
+            and the expert. We do not charge referral fees to clients unless
             separately agreed in writing.
           </p>
 
@@ -56,8 +56,8 @@ export default function TermsPage() {
 
           <h2>Governing Law</h2>
           <p>
-            These terms are governed by the laws of England and Wales. The courts
-            of England and Wales have exclusive jurisdiction.
+            These terms are governed by the laws of applicable jurisdictions. The courts
+            of applicable jurisdictions have exclusive jurisdiction.
           </p>
 
           <h2>Contact</h2>

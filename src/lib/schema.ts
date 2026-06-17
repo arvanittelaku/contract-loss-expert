@@ -83,13 +83,9 @@ export const organizationSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   email: SITE_EMAIL,
-  address: {
-    "@type": "PostalAddress",
-    addressCountry: "GB",
-  },
   areaServed: {
-    "@type": "Country",
-    name: "United Kingdom",
+    "@type": "Place",
+    name: "Worldwide",
   },
   sameAs: [LINKEDIN_URL],
 };

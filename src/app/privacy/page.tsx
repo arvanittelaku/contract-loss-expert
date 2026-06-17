@@ -5,7 +5,7 @@ import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 export const metadata = createMetadata({
   title: "Privacy Policy | ContractLossExpert.com",
-  description: "Privacy policy for ContractLossExpert.com, UK GDPR compliant.",
+  description: "Privacy policy for ContractLossExpert.com, GDPR compliant.",
   path: "/privacy",
   noindex: true,
   nofollow: false,
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
 
           <h2>Your Rights</h2>
           <p>
-            Under UK GDPR, you have the right to access, rectify, erase, restrict
+            Under GDPR, you have the right to access, rectify, erase, restrict
             processing, object, and data portability. You may lodge a complaint
             with the Information Commissioner&apos;s Office (ICO). Contact us at{" "}
             <SiteEmailLink className="text-accent hover:underline" /> to exercise your

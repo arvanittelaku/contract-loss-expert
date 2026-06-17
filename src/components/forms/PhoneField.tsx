@@ -1,7 +1,7 @@
 "use client";
 
 const PREFIXES = [
-  { value: "+44", label: "UK +44" },
+  { value: "+44", label: "+44" },
   { value: "+353", label: "IE +353" },
   { value: "+1", label: "US/CA +1" },
   { value: "+61", label: "AU +61" },

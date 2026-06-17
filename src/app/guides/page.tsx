@@ -8,9 +8,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { guides } from "@/data/guides";
 
 export const metadata = createMetadata({
-  title: "Solicitor Guides: Contract Loss Expert Witnesses UK | Quantum & Damages",
+  title: "Legal Guides: Contract Loss Expert Witnesses | Quantum & Damages",
   description:
-    "In-depth guides for UK solicitors on contract loss expert witnesses, lost profits methodology, Hadley v Baxendale, construction quantum, and more.",
+    "In-depth guides for legal teams on contract loss expert witnesses, lost profits methodology, Hadley v Baxendale, construction quantum, and more.",
   path: "/guides",
 });
 
@@ -24,7 +24,7 @@ export default function GuidesPage() {
         ])}
       />
       <PageHero
-        title="Solicitor Guides: Contract Loss Expert Witnesses UK"
+        title="Legal Guides: Contract Loss Expert Witnesses"
         subtitle="Practical guides on instructing quantum experts, lost profits methodology, remoteness of damage, construction claims, and professional negligence loss quantification."
         breadcrumbs={[
           { label: "Home", href: "/" },

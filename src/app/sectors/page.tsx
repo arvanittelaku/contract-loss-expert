@@ -8,9 +8,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { sectors } from "@/data/sectors";
 
 export const metadata = createMetadata({
-  title: "Contract Loss Expert Witnesses by Sector | UK Industry Specialists",
+  title: "Contract Loss Expert Witnesses by Sector | Industry Specialists",
   description:
-    "Sector-specialist contract loss expert witnesses for UK litigation. Construction, technology, supply chain, financial services, retail, and professional services.",
+    "Sector-specialist contract loss expert witnesses for litigation. Construction, technology, supply chain, financial services, retail, and professional services.",
   path: "/sectors",
 });
 
@@ -25,7 +25,7 @@ export default function SectorsPage() {
       />
       <PageHero
         title="Contract Loss Expert Witnesses by Sector"
-        subtitle="Sector economics are central to contract loss quantification. We match UK solicitors with experts who understand industry-specific trading patterns, margin structures, and comparable benchmarks."
+        subtitle="Sector economics are central to contract loss quantification. We match legal teams with experts who understand industry-specific trading patterns, margin structures, and comparable benchmarks."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Sectors" },

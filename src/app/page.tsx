@@ -33,7 +33,7 @@ const stats = [
   ["Primary damage measure", "Expectation loss (but-for)", "Robinson v Harman [1848]"],
   ["Alternative measure", "Reliance loss / wasted expenditure", "Anglia TV v Reed [1972]"],
   ["Court framework", "CPR Part 35", "Civil Procedure Rules"],
-  ["Duty to mitigate", "Yes, claimant must minimise loss", "UK contract law"],
+  ["Duty to mitigate", "Yes, claimant must minimise loss", "Contract law"],
   ["Arbitration frameworks", "LCIA, ICC, UNCITRAL", "As applicable"],
 ];
 
@@ -65,8 +65,8 @@ export default function HomePage() {
     <>
       <JsonLd data={homepageSchema} />
       <PageHero
-        title="Contract Loss Expert Witness Services for UK Solicitors & Law Firms"
-        subtitle="When a contract is breached, the financial loss must be quantified with precision, and defended under cross-examination. We connect UK solicitors and barristers with qualified contract loss expert witnesses: forensic accountants, quantum experts, and economic damages specialists who produce CPR Part 35 compliant reports for courts, tribunals, and arbitration."
+        title="Contract Loss Expert Witness Services for Law Firms Worldwide"
+        subtitle="When a contract is breached, the financial loss must be quantified with precision, and defended under cross-examination. We connect law firms and counsel with qualified contract loss expert witnesses: forensic accountants, quantum experts, and economic damages specialists who produce court-ready expert reports for litigation, tribunals, and arbitration."
       />
       <Section>
         <div className="text-center">
@@ -92,7 +92,7 @@ export default function HomePage() {
 
       <Section>
         <h2 className="text-2xl font-bold text-heading sm:text-3xl">
-          Contract Loss Expert Witness: Key UK Statistics
+          Contract Loss Expert Witness: Key Statistics
         </h2>
         <ResponsiveTable className="mt-6">
           <table className="w-full min-w-[600px] border-collapse text-sm">
@@ -139,7 +139,7 @@ export default function HomePage() {
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <Card
             title="Types of Contract Loss"
-            description="Expectation, reliance, and consequential loss, the pillar guide for UK solicitors."
+            description="Expectation, reliance, and consequential loss, the pillar guide for legal practitioners."
             href="/loss-types"
           />
           <Card
@@ -153,18 +153,18 @@ export default function HomePage() {
             href="/sectors"
           />
           <Card
-            title="Solicitor Guides"
+            title="Legal Guides"
             description="Hadley v Baxendale, but-for methodology, construction quantum, and instruction letters."
             href="/guides"
           />
           <Card
-            title="FAQ"
-            description="But-for methodology, wasted expenditure, fees, CPR Part 35, and SJE vs party-appointed experts."
-            href="/faq"
+            title="How to Instruct"
+            description="Step-by-step guidance on finding, vetting, and instructing the right quantum expert."
+            href="/how-to-instruct"
           />
           <Card
             title="Glossary"
-            description="30 definition-first terms for UK contract loss litigation."
+            description="30 definition-first terms for contract loss litigation."
             href="/glossary"
           />
         </div>
@@ -172,7 +172,7 @@ export default function HomePage() {
 
       <Section alt>
         <h2 className="text-2xl font-bold text-heading sm:text-3xl">
-          Why UK Solicitors Trust Our Contract Loss Expert Witnesses
+          Why Legal Teams Trust Our Contract Loss Expert Witnesses
         </h2>
         <ul className="mt-6 grid gap-3 sm:grid-cols-2">
           {trustPoints.map((point) => (

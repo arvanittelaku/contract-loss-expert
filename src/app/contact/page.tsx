@@ -7,9 +7,9 @@ import { ContactForm } from "@/components/forms/ContactForm";
 import { SiteEmailLink } from "@/components/SiteEmailLink";
 
 export const metadata = createMetadata({
-  title: "Instruct a Contract Loss Expert Witness | ContractLossExpert.com UK",
+  title: "Instruct a Contract Loss Expert Witness | ContractLossExpert.com",
   description:
-    "Submit your case details to be matched with a qualified UK contract loss expert witness. CPR Part 35 compliant. Response within 1 business day.",
+    "Submit your case details to be matched with a qualified contract loss expert witness. Court-ready expert reports. Response within 1 business day.",
   path: "/contact",
 });
 
@@ -31,7 +31,7 @@ export default function ContactPage() {
       />
       <PageHero
         title="Instruct a Contract Loss Expert Witness"
-        subtitle="Submit your case details and we will match you with a qualified UK contract loss expert witness. All enquiries are treated confidentially."
+        subtitle="Submit your case details and we will match you with a qualified contract loss expert witness. All enquiries are treated confidentially."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
       />
       <Section>

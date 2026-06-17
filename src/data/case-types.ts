@@ -140,11 +140,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "commercial-contract-breach",
     title: "Commercial Contract Breach",
-    h1: "Commercial Contract Breach Loss Expert Witness UK",
+    h1: "Commercial Contract Breach Loss Expert Witness",
     metaTitle:
-      "Commercial Contract Breach Loss Expert Witness UK | ContractLossExpert",
+      "Commercial Contract Breach Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "UK contract loss expert witnesses for commercial contract breach claims, lost profits, expectation vs reliance damages, and Hadley v Baxendale remoteness analysis for solicitors.",
+      "Contract loss expert witnesses for commercial contract breach claims, lost profits, expectation vs reliance damages, and Hadley v Baxendale remoteness analysis for legal practitioners.",
     paragraphs: [
       "Commercial contract disputes arise across the full spectrum of business trading relationships, from supply and distribution agreements to long-term service contracts, framework arrangements, and bespoke B2B sales contracts. When a party fails to deliver goods, perform services, or honour payment terms, the innocent party's primary remedy is damages measured by the financial loss suffered. A contract loss expert witness analyses the contract terms, trading records, and market context to quantify that loss in a form that satisfies the compensatory principle established in Robinson v Harman [1848] 1 Ex 850.",
       "The choice between expectation loss (lost profits) and reliance loss (wasted expenditure) is a critical strategic and evidential decision in commercial contract claims. Expectation damages place the claimant in the position they would have been in had the contract been performed, typically quantified through a but-for model comparing projected performance with actual results. Reliance damages, available where profits cannot be proved or where the claimant made a bad bargain, recover expenditure incurred in anticipation of performance. Expert witnesses must address both frameworks and explain why the chosen measure is appropriate, with full sensitivity analysis on key assumptions such as margin, volume, and cost allocation.",
@@ -164,13 +164,13 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "construction-quantum-disputes",
     title: "Construction Quantum Disputes",
-    h1: "Construction Contract Quantum Expert Witness UK",
+    h1: "Construction Contract Quantum Expert Witness",
     metaTitle:
-      "Construction Contract Quantum Expert Witness UK | ContractLossExpert",
+      "Construction Contract Quantum Expert Witness | ContractLossExpert",
     metaDescription:
       "Chartered quantity surveyors and forensic accountants for JCT, NEC, and FIDIC quantum claims, loss and expense, prolongation, disruption, variations, and TCC adjudication evidence.",
     paragraphs: [
-      "Construction contract disputes in the UK are governed by standard form contracts including JCT Design and Build, NEC4 Engineering and Construction Contract, and FIDIC Red Book on international projects. When an employer, contractor, or subcontractor alleges breach, delay, or entitlement to additional payment, the financial value of the claim must be quantified with precision. A construction quantum expert witness, typically a chartered quantity surveyor (MRICS/FRICS) or forensic accountant with construction sector experience, values loss and expense claims, variations, prolongation costs, and disruption losses in accordance with the contract's payment and compensation mechanisms.",
+      "Construction contract disputes in the are governed by standard form contracts including JCT Design and Build, NEC4 Engineering and Construction Contract, and FIDIC Red Book on international projects. When an employer, contractor, or subcontractor alleges breach, delay, or entitlement to additional payment, the financial value of the claim must be quantified with precision. A construction quantum expert witness, typically a chartered quantity surveyor (MRICS/FRICS) or forensic accountant with construction sector experience, values loss and expense claims, variations, prolongation costs, and disruption losses in accordance with the contract's payment and compensation mechanisms.",
       "Prolongation and disruption are distinct heads of loss that require separate expert analysis. Prolongation covers the extended time-related costs of keeping a site operational beyond the planned completion date, including site management, plant hire, insurance, and preliminaries. Disruption addresses the loss of productivity caused by change events, access restrictions, or cumulative impact of multiple instructions, resulting in work being performed less efficiently than planned. Expert witnesses use programme analysis, measured mile studies, and earned value techniques to quantify each head, distinguishing global claims from individually pleaded and evidenced items.",
       "Construction disputes frequently proceed through statutory adjudication under the Housing Grants, Construction and Regeneration Act 1996 before reaching the Technology and Construction Court (TCC) or arbitration. Quantum experts prepare Scott Schedules itemising each claim, respond to adjudicator directions, and produce joint statements following meetings of experts under CPR Part 35. Whether the forum is a 28-day adjudication or a multi-week TCC trial, the expert's credibility in presenting an objective, well-worked quantum analysis is central to the outcome.",
     ],
@@ -194,11 +194,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "supply-chain-failure",
     title: "Supply Chain Failure",
-    h1: "Supply Chain Failure Contract Loss Expert Witness UK",
+    h1: "Supply Chain Failure Contract Loss Expert Witness",
     metaTitle:
-      "Supply Chain Failure Contract Loss Expert Witness UK | ContractLossExpert",
+      "Supply Chain Failure Contract Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "Expert witnesses for upstream supplier breach claims, causal chain analysis, mitigation, inventory loss, and downstream customer contract losses in UK commercial litigation.",
+      "Expert witnesses for upstream supplier breach claims, causal chain analysis, mitigation, inventory loss, and downstream customer contract losses in commercial litigation.",
     paragraphs: [
       "Modern supply chains are multi-tiered and interdependent. When an upstream supplier breaches a contract, by failing to deliver raw materials, components, or finished goods on time or to specification, the financial consequences often cascade through manufacturing, distribution, and retail operations. A supply chain loss expert witness maps the causal chain from the original breach to each downstream head of loss, establishing that the claimant's financial harm was a direct and foreseeable consequence of the supplier's failure rather than unrelated market conditions or the claimant's own operational decisions.",
       "The claimant's duty to mitigate is particularly significant in supply chain disputes. Expert witnesses assess whether alternative suppliers were reasonably available, at what cost, and within what timeframe. Where mitigation was attempted but only partially successful, the expert quantifies the residual loss net of any savings achieved. Inventory losses, including stock write-offs, obsolescence, and storage costs, are analysed alongside production shutdown losses, calculating lost contribution margin on units that could not be manufactured and sold during the disruption period.",
@@ -221,11 +221,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "professional-negligence-loss",
     title: "Professional Negligence Loss",
-    h1: "Professional Negligence Contract Loss Expert Witness UK",
+    h1: "Professional Negligence Contract Loss Expert Witness",
     metaTitle:
-      "Professional Negligence Contract Loss Expert Witness UK | ContractLossExpert",
+      "Professional Negligence Contract Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "Forensic accountants for accountant, solicitor, and surveyor negligence claims, but-for counterfactuals, loss of chance, and SAAMCo scope of duty analysis for UK litigation.",
+      "Forensic accountants for accountant, solicitor, and surveyor negligence claims, but-for counterfactuals, loss of chance, and SAAMCo scope of duty analysis for litigation.",
     paragraphs: [
       "Professional negligence claims against accountants, solicitors, surveyors, and other advisers require expert evidence on both liability and quantum. A contract loss expert witness in this context constructs a but-for counterfactual, establishing what the claimant's financial position would have been had the professional performed their retainer competently, and compares it to the actual outcome. This analysis underpins damages in failed transactions, negligent valuations, defective tax advice, and litigation strategy errors where the claimant alleges they would have achieved a better financial result but for the professional's breach of duty.",
       "The SAAMCo principle (South Australia Asset Management Corp v York Montague Ltd [1997] AC 191) fundamentally limits the scope of recoverable loss in professional negligence cases. Damages are confined to losses within the scope of the professional's duty, distinguishing between advisers who provide information (where liability is limited to the additional loss caused by the information being wrong) and those who provide advice on a specific transaction (where a broader range of losses may be recoverable). Expert witnesses must address SAAMCo at the outset of their analysis, identifying which categories of loss fall within and outside the scope of the retainer.",
@@ -248,11 +248,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "ip-licence-breach",
     title: "IP Licence Breach",
-    h1: "IP Licence Breach Contract Loss Expert Witness UK",
+    h1: "IP Licence Breach Contract Loss Expert Witness",
     metaTitle:
-      "IP Licence Breach Contract Loss Expert Witness UK | ContractLossExpert",
+      "IP Licence Breach Contract Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "Expert witnesses for IP licence breach claims, royalty loss quantification, reasonable royalty rates, relief from royalty methodology, and lost sales from IP misuse in UK disputes.",
+      "Expert witnesses for IP licence breach claims, royalty loss quantification, reasonable royalty rates, relief from royalty methodology, and lost sales from IP misuse in disputes.",
     paragraphs: [
       "Intellectual property licence agreements govern the commercial exploitation of patents, trade marks, copyrights, and know-how across technology, media, pharmaceutical, and manufacturing sectors. When a licensee breaches the terms of a licence, by under-reporting sales, exceeding territorial limits, sublicensing without authority, or continuing use after termination, the licensor's financial remedy depends on precise quantification of the royalty shortfall and any additional losses flowing from the breach. A contract loss expert witness calculates the royalties that should have been paid under the contractual rate applied to the licensee's actual usage, with supporting audit of sales records, royalty statements, and third-party data.",
       "Where the contractual royalty rate is disputed or the licence was never properly agreed, expert witnesses perform a reasonable royalty analysis using comparable arm's-length licence transactions as benchmarks. Adjustments are made for exclusivity, territory, field of use, and the stage of IP development. Lost profits from IP misuse, where the licensor would have earned greater returns through direct exploitation or alternative licensing, are quantified separately, with the expert addressing which measure of damages is appropriate under the compensatory principle and any contractual limitations on recovery.",
@@ -275,11 +275,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "earn-out-ma-dispute",
     title: "Earn-Out & M&A Dispute",
-    h1: "Earn-Out & M&A Dispute Contract Loss Expert Witness UK",
+    h1: "Earn-Out & M&A Dispute Contract Loss Expert Witness",
     metaTitle:
-      "Earn-Out & M&A Dispute Contract Loss Expert Witness UK | ContractLossExpert",
+      "Earn-Out & M&A Dispute Contract Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "Expert witnesses for earn-out calculation disputes, management conduct claims, and completion accounts disagreements in UK mergers and acquisitions litigation.",
+      "Expert witnesses for earn-out calculation disputes, management conduct claims, and completion accounts disagreements in mergers and acquisitions litigation.",
     paragraphs: [
       "Earn-out provisions in share purchase and asset sale agreements tie part of the consideration to post-completion performance, aligning the interests of buyer and seller over an agreed measurement period. Disputes arise when sellers allege that the buyer's conduct, such as diverting resources, changing commercial strategy, integrating the business in a way that suppresses performance, or failing to invest as contemplated, prevented earn-out targets from being achieved. Expert witnesses construct a but-for model showing what the target business would have achieved absent the alleged breach, applying the earn-out formula to quantify the resulting payment shortfall.",
       "Completion accounts disputes present a distinct but related category of M&A quantum work. Where the purchase price is adjusted by reference to the target's financial position at completion, disagreements frequently arise over accounting policies, normalisation adjustments, working capital definitions, and debt items. Expert accountants analyse the completion accounts, the sale and purchase agreement's accounting mechanics, and industry practice to identify departures from the agreed methodology and quantify the price adjustment required. Warranty and indemnity claims for undisclosed liabilities may run in parallel, requiring separate loss quantification.",
@@ -290,17 +290,17 @@ export const caseTypes: ContentPage[] = [
       { href: "/services", label: "All Expert Witness Services" },
       { href: "/services#lost-profits", label: "Lost Profits Quantification" },
       { href: "/how-to-instruct", label: "How to Instruct an Expert" },
-      { href: "/fees", label: "Expert Witness Fees Guide" },
+      { href: "/how-to-instruct", label: "How to Instruct an Expert" },
     ],
   },
   {
     slug: "franchise-agreement-breach",
     title: "Franchise Agreement Breach",
-    h1: "Franchise Agreement Breach Contract Loss Expert Witness UK",
+    h1: "Franchise Agreement Breach Contract Loss Expert Witness",
     metaTitle:
-      "Franchise Agreement Breach Contract Loss Expert Witness UK | ContractLossExpert",
+      "Franchise Agreement Breach Contract Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "Contract loss expert witnesses for franchisor and franchisee breach claims, wrongful termination, lost franchise profits, royalty recovery, and network loss analysis in UK disputes.",
+      "Contract loss expert witnesses for franchisor and franchisee breach claims, wrongful termination, lost franchise profits, royalty recovery, and network loss analysis in disputes.",
     paragraphs: [
       "Franchise agreements create long-term commercial relationships in which the franchisor licenses its brand, systems, and know-how in return for initial fees and ongoing royalties. Breach can arise on either side: franchisors may fail to provide agreed support, protect territory exclusivity, or maintain brand standards; franchisees may default on royalty payments, operate outside their territory, or compete with the network. When a franchise is wrongfully terminated or repudiated, the innocent party's loss requires expert quantification based on historic unit performance, network comparables, and the remaining contractual term.",
       "For franchisees facing wrongful termination, the expert calculates the profits that would have been earned for the balance of the franchise term absent the breach. Early-stage franchises present particular challenges, requiring robust projection methodology, sensitivity analysis on ramp-up assumptions, and benchmarking against comparable outlets in the network. Discount rates reflect the risk profile of projected cash flows. Where the franchisee has mitigated by establishing an independent business, the expert addresses the extent to which alternative income reduces the recoverable loss.",
@@ -317,11 +317,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "employment-contract-loss",
     title: "Employment Contract Loss",
-    h1: "Employment Contract Loss Expert Witness UK",
+    h1: "Employment Contract Loss Expert Witness",
     metaTitle:
-      "Employment Contract Loss Expert Witness UK | ContractLossExpert",
+      "Employment Contract Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "Financial experts for wrongful dismissal, bonus and incentive loss, garden leave disputes, and restrictive covenant breach quantification in UK employment contract claims.",
+      "Financial experts for wrongful dismissal, bonus and incentive loss, garden leave disputes, and restrictive covenant breach quantification in employment contract claims.",
     paragraphs: [
       "Employment contract disputes involving senior executives, sales directors, and financial professionals frequently require expert evidence on the quantification of financial loss. Wrongful dismissal claims in the High Court (where contractual damages exceed the employment tribunal jurisdiction) focus on losses during the contractual notice period, salary, guaranteed and discretionary bonus, pension contributions, LTIP vesting, car allowance, and other benefits that would have been received but for the employer's repudiation of the contract. Expert witnesses calculate these components precisely, addressing the contractual mechanisms governing bonus entitlement and the evidential burden on each party.",
       "Restrictive covenant breach claims require a different analytical approach. Where a former employee breaches non-compete, non-solicit, or non-dealing covenants, the employer's loss is the revenue and profit diverted to the competing business or poached from the employer's client base. Expert witnesses trace diverted transactions using CRM data, client lists, comparator market analysis, and, where disclosed, the competitor's own financial records. The analysis distinguishes between revenue that would have been lost in any event and revenue directly attributable to the covenant breach, applying appropriate profit margins to arrive at the net loss figure.",
@@ -341,11 +341,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "joint-venture-dispute",
     title: "Joint Venture Dispute",
-    h1: "Joint Venture Dispute Contract Loss Expert Witness UK",
+    h1: "Joint Venture Dispute Contract Loss Expert Witness",
     metaTitle:
-      "Joint Venture Dispute Contract Loss Expert Witness UK | ContractLossExpert",
+      "Joint Venture Dispute Contract Loss Expert Witness | ContractLossExpert",
     metaDescription:
-      "Expert witnesses for joint venture breach claims, profit share disputes, contribution obligations, exit and dilution losses, and but-for quantification in UK JV litigation.",
+      "Expert witnesses for joint venture breach claims, profit share disputes, contribution obligations, exit and dilution losses, and but-for quantification in JV litigation.",
     paragraphs: [
       "Joint venture agreements govern the collaboration between two or more parties in a shared enterprise, allocating contributions, management rights, profit shares, and exit mechanisms. When one party alleges that another has breached the JV agreement, by failing to contribute capital or resources, diverting opportunities, mismanaging the venture, or acting in self-interest contrary to the agreement, the financial consequences must be quantified with reference to the specific contractual allocation of risk and reward. Expert witnesses analyse the JV agreement, shareholders' or participants' agreements, management accounts, and distribution records to establish the financial impact of the alleged breach.",
       "Profit share disputes require the expert to reconstruct what each party should have received under the agreement compared to what was actually distributed. This involves analysing revenue recognition policies, cost allocations between the JV and its parents, transfer pricing on intra-group transactions, and any management charges that may have affected distributable profits. Where the JV has been prematurely terminated or one party has been improperly excluded, future lost profit shares are projected using historic performance and agreed or market-based growth assumptions, discounted to present value.",
@@ -365,11 +365,11 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "distribution-agency-agreement",
     title: "Distribution & Agency Agreement",
-    h1: "Distribution & Agency Agreement Breach Expert Witness UK",
+    h1: "Distribution & Agency Agreement Breach Expert Witness",
     metaTitle:
-      "Distribution & Agency Agreement Breach Expert Witness UK | ContractLossExpert",
+      "Distribution & Agency Agreement Breach Expert Witness | ContractLossExpert",
     metaDescription:
-      "Expert witnesses for distribution and commercial agency claims, Regulation 17 compensation, lost commission, pipeline losses, and exclusivity breach quantification under UK law.",
+      "Expert witnesses for distribution and commercial agency claims, Regulation 17 compensation, lost commission, pipeline losses, and exclusivity breach quantification under law.",
     paragraphs: [
       "Distribution and agency agreements govern the relationship between principals and intermediaries who sell products on their behalf. The Commercial Agents (Council Directive) Regulations 1993 impose mandatory compensation or indemnity rights on commercial agents upon termination, calculated by reference to the value of the agency and the agent's commission history. Regulation 17 compensation is typically based on two years' average annual commission, though the precise methodology depends on whether the agent elects compensation or indemnity and the specific circumstances of termination. Expert witnesses calculate these statutory entitlements alongside any contractual damages for breach of the agency or distribution agreement.",
       "Where a principal wrongfully terminates a distribution agreement or breaches exclusivity, territory, or minimum purchase obligations, the distributor's contractual loss includes the profit that would have been earned on product sales during the remaining agreement term. Expert witnesses use historic sales data, market growth projections, and distribution margin analysis to construct the but-for revenue and profit model. Pipeline losses, orders in progress or contracts at an advanced stage of negotiation at the date of termination, require separate identification and quantification with appropriate probability weighting where conversion was not certain.",
