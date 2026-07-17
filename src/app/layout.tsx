@@ -16,7 +16,7 @@ export const metadata: Metadata = createMetadata({
   title:
     "Contract Loss Expert Witness | Lost Profits & Breach of Contract Damages",
   description:
-    "Find qualified contract loss expert witnesses worldwide. Forensic accountants and quantum experts for lost profits, wasted expenditure, and breach of contract damages for courts, tribunals, and arbitration.",
+    "Find qualified English-law contract loss expert witnesses for courts, tribunals, and international arbitration. Forensic accountants and quantum experts for lost profits, wasted expenditure, and breach of contract damages.",
   path: "/",
 });
 

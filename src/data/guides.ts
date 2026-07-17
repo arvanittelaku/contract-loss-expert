@@ -10,6 +10,8 @@ const guides: GuidePage[] = [
     metaDescription:
       "Hadley v Baxendale explained for legal teams: the two-limb remoteness rule, direct vs consequential loss, and how contract loss expert witnesses address recoverability.",
     aboutServiceId: "consequential-loss",
+    datePublished: "2025-02-10",
+    dateModified: "2025-11-15",
     paragraphs: [
       "Remoteness is one of the first questions a court asks when assessing breach of contract damages. The leading authority remains Hadley v Baxendale [1854] 9 Ex Ch 341, which limits recovery to losses that were either a natural consequence of the breach or within the parties' reasonable contemplation at the time of contracting.",
       "For solicitors briefing quantum experts, remoteness is not an abstract doctrinal point, it determines which heads of loss can be pleaded, evidenced, and recovered. A well-structured expert report addresses remoteness for each category of loss claimed, separating direct loss from consequential loss and explaining why each passes the applicable limb of the test.",
@@ -45,7 +47,7 @@ const guides: GuidePage[] = [
       {
         question: "Does Hadley v Baxendale still apply in modern contract law?",
         answer:
-          "Yes. Hadley v Baxendale [1854] remains the foundational authority on remoteness of damages for breach of contract in applicable jurisdictions. The two-limb test has been refined in subsequent cases but not replaced. Expert witnesses routinely structure loss reports around its framework.",
+          "Yes. Hadley v Baxendale [1854] remains the foundational authority on remoteness of damages for breach of contract under English contract law. The two-limb test has been refined in subsequent cases but not replaced. Expert witnesses routinely structure loss reports around its framework.",
       },
       {
         question:
@@ -78,6 +80,8 @@ const guides: GuidePage[] = [
     metaDescription:
       "How legal teams instruct experts on lost profits: but-for counterfactual models, data sources, sensitivity analysis, and how courts assess breach of contract profit claims.",
     aboutServiceId: "lost-profits",
+    datePublished: "2025-03-05",
+    dateModified: "2026-01-20",
     paragraphs: [
       "Lost profits, expectation damages, are the default measure of compensation where a claimant can prove what they would have earned had the contract been performed. The but-for methodology compares the claimant's actual financial position following breach with the position they would have been in absent the breach.",
       "Courts and tribunals expect transparent, evidence-based counterfactuals. Solicitors who understand how experts build but-for models can draft tighter instructions, anticipate disclosure requirements, and identify weaknesses in the opposing expert's analysis before trial.",
@@ -145,6 +149,8 @@ const guides: GuidePage[] = [
     metaDescription:
       "When to claim reliance loss instead of expectation damages: Anglia TV v Reed, bad bargain defence, pre-contractual expenditure, and expert evidence on wasted expenditure.",
     aboutServiceId: "wasted-expenditure",
+    datePublished: "2025-03-20",
+    dateModified: "2025-10-08",
     paragraphs: [
       "Reliance loss, often quantified as wasted expenditure, returns the claimant to the position they would have been in had the contract never been made. It is an alternative to expectation damages, not an additional top-up. Choosing the correct measure is a strategic decision with significant consequences for recoverable amounts.",
       "Solicitors must understand when reliance damages are available, how the bad bargain defence operates, and what expert evidence is required to prove expenditure was incurred in reasonable reliance on the contract being performed.",
@@ -212,6 +218,8 @@ const guides: GuidePage[] = [
     metaDescription:
       "Guide for legal teams on construction quantum experts: loss and expense, JCT/NEC/FIDIC, prolongation vs disruption, Scott Schedules, TCC practice, and adjudication evidence.",
     aboutServiceId: "construction-quantum",
+    datePublished: "2025-04-12",
+    dateModified: "2026-02-01",
     paragraphs: [
       "Construction contract disputes require quantum evidence that bridges contractual entitlement, programme impact, and financial quantification. The quantum expert, typically a chartered quantity surveyor or forensic accountant with construction experience, values loss and expense, variations, prolongation, and disruption claims.",
       "This guide explains what solicitors should expect from construction quantum experts, how standard form contracts frame entitlement, and how TCC and adjudication practice shapes expert evidence.",
@@ -279,6 +287,8 @@ const guides: GuidePage[] = [
     metaDescription:
       "Expert evidence in professional negligence: but-for counterfactuals, SAAMCo, loss of chance, Allied Maples, scope of duty limits, and report structure for legal teams.",
     aboutServiceId: "professional-negligence-damages",
+    datePublished: "2025-05-01",
+    dateModified: "2025-12-10",
     paragraphs: [
       "Professional negligence loss quantification requires the expert to address not only how much was lost, but whether the loss falls within the scope of the professional's duty. The interaction between causation, SAAMCo scope of duty, and loss of chance principles makes these instructions among the most legally sensitive in commercial litigation.",
       "Solicitors must align pleadings, expert instructions, and disclosure with the correct legal framework before significant costs are incurred on quantum analysis that the court cannot ultimately award.",
@@ -345,6 +355,8 @@ const guides: GuidePage[] = [
       "Letter of Instruction to Contract Loss Expert | Legal Guide",
     metaDescription:
       "How legal teams draft letters of instruction to contract loss experts: scope, specific questions, documents, fees, CPR Part 35, and single joint expert joint instruction format.",
+    datePublished: "2025-05-18",
+    dateModified: "2026-03-01",
     paragraphs: [
       "The letter of instruction is the foundation of the expert engagement. A poorly drafted instruction produces an unfocused report, exposes the expert to challenge on scope creep, and wastes costs on analysis the court does not need. A well-drafted instruction aligns the expert's work with the pleaded case and CPR Part 35 requirements.",
       "This guide sets out what to include, the specific questions to address, document provision, fee terms, and the differences between party-appointed and single joint expert instructions.",

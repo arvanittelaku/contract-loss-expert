@@ -55,7 +55,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "CPR Part 35",
     definition:
-      "Civil Procedure Rules Part 35 and Practice Direction 35 govern expert evidence in civil proceedings in applicable jurisdictions. Experts owe an overriding duty to the court, must provide independent objective opinions within their expertise, and must comply with specific report format requirements. Non-compliance can result in exclusion of evidence or adverse costs.",
+      "Civil Procedure Rules Part 35 and Practice Direction 35 govern expert evidence in civil proceedings in England and Wales. Experts owe an overriding duty to the court, must provide independent objective opinions within their expertise, and must comply with specific report format requirements. Non-compliance can result in exclusion of evidence or adverse costs.",
     link: {
       href: "/qualifications",
       label: "Expert Qualifications & CPR Part 35",
@@ -107,7 +107,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Force Majeure",
     definition:
-      "A contractual clause excusing performance where specified supervening events beyond the parties' control prevent performance. Force majeure is a contractual construct, not a free-standing common law doctrine in applicable jurisdictions. Quantum experts may address whether an FM event caused the loss claimed and what proportion of loss is attributable to FM versus breach.",
+      "A contractual clause excusing performance where specified supervening events beyond the parties' control prevent performance. Force majeure is a contractual construct, not a free-standing common law doctrine under English law. Quantum experts may address whether an FM event caused the loss claimed and what proportion of loss is attributable to FM versus breach.",
   },
   {
     term: "Hadley v Baxendale [1854]",
@@ -201,7 +201,7 @@ export const glossaryTerms: GlossaryTerm[] = [
   {
     term: "Robinson v Harman [1848]",
     definition:
-      "The foundational compensatory principle: the innocent party should be placed in the position they would have been in had the contract been performed. This establishes expectation damages as the primary measure of contract damages in applicable jurisdictions, quantified through but-for analysis of lost profits.",
+      "The foundational compensatory principle: the innocent party should be placed in the position they would have been in had the contract been performed. This establishes expectation damages as the primary measure of contract damages under English contract law, quantified through but-for analysis of lost profits.",
     link: {
       href: "/loss-types#expectation-loss",
       label: "Expectation Loss Explained",

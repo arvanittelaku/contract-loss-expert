@@ -170,7 +170,7 @@ export const caseTypes: ContentPage[] = [
     metaDescription:
       "Chartered quantity surveyors and forensic accountants for JCT, NEC, and FIDIC quantum claims, loss and expense, prolongation, disruption, variations, and TCC adjudication evidence.",
     paragraphs: [
-      "Construction contract disputes in the are governed by standard form contracts including JCT Design and Build, NEC4 Engineering and Construction Contract, and FIDIC Red Book on international projects. When an employer, contractor, or subcontractor alleges breach, delay, or entitlement to additional payment, the financial value of the claim must be quantified with precision. A construction quantum expert witness, typically a chartered quantity surveyor (MRICS/FRICS) or forensic accountant with construction sector experience, values loss and expense claims, variations, prolongation costs, and disruption losses in accordance with the contract's payment and compensation mechanisms.",
+      "Construction contract disputes are governed by standard form contracts including JCT Design and Build, NEC4 Engineering and Construction Contract, and FIDIC Red Book on international projects. When an employer, contractor, or subcontractor alleges breach, delay, or entitlement to additional payment, the financial value of the claim must be quantified with precision. A construction quantum expert witness, typically a chartered quantity surveyor (MRICS/FRICS) or forensic accountant with construction sector experience, values loss and expense claims, variations, prolongation costs, and disruption losses in accordance with the contract's payment and compensation mechanisms.",
       "Prolongation and disruption are distinct heads of loss that require separate expert analysis. Prolongation covers the extended time-related costs of keeping a site operational beyond the planned completion date, including site management, plant hire, insurance, and preliminaries. Disruption addresses the loss of productivity caused by change events, access restrictions, or cumulative impact of multiple instructions, resulting in work being performed less efficiently than planned. Expert witnesses use programme analysis, measured mile studies, and earned value techniques to quantify each head, distinguishing global claims from individually pleaded and evidenced items.",
       "Construction disputes frequently proceed through statutory adjudication under the Housing Grants, Construction and Regeneration Act 1996 before reaching the Technology and Construction Court (TCC) or arbitration. Quantum experts prepare Scott Schedules itemising each claim, respond to adjudicator directions, and produce joint statements following meetings of experts under CPR Part 35. Whether the forum is a 28-day adjudication or a multi-week TCC trial, the expert's credibility in presenting an objective, well-worked quantum analysis is central to the outcome.",
     ],
@@ -290,7 +290,7 @@ export const caseTypes: ContentPage[] = [
       { href: "/services", label: "All Expert Witness Services" },
       { href: "/services#lost-profits", label: "Lost Profits Quantification" },
       { href: "/how-to-instruct", label: "How to Instruct an Expert" },
-      { href: "/how-to-instruct", label: "How to Instruct an Expert" },
+      { href: "/qualifications", label: "Expert Qualifications" },
     ],
   },
   {
@@ -369,7 +369,7 @@ export const caseTypes: ContentPage[] = [
     metaTitle:
       "Distribution & Agency Agreement Breach Expert Witness | ContractLossExpert",
     metaDescription:
-      "Expert witnesses for distribution and commercial agency claims, Regulation 17 compensation, lost commission, pipeline losses, and exclusivity breach quantification under law.",
+      "Expert witnesses for distribution and commercial agency claims, Regulation 17 compensation, lost commission, pipeline losses, and exclusivity breach quantification under English law.",
     paragraphs: [
       "Distribution and agency agreements govern the relationship between principals and intermediaries who sell products on their behalf. The Commercial Agents (Council Directive) Regulations 1993 impose mandatory compensation or indemnity rights on commercial agents upon termination, calculated by reference to the value of the agency and the agent's commission history. Regulation 17 compensation is typically based on two years' average annual commission, though the precise methodology depends on whether the agent elects compensation or indemnity and the specific circumstances of termination. Expert witnesses calculate these statutory entitlements alongside any contractual damages for breach of the agency or distribution agreement.",
       "Where a principal wrongfully terminates a distribution agreement or breaches exclusivity, territory, or minimum purchase obligations, the distributor's contractual loss includes the profit that would have been earned on product sales during the remaining agreement term. Expert witnesses use historic sales data, market growth projections, and distribution margin analysis to construct the but-for revenue and profit model. Pipeline losses, orders in progress or contracts at an advanced stage of negotiation at the date of termination, require separate identification and quantification with appropriate probability weighting where conversion was not certain.",

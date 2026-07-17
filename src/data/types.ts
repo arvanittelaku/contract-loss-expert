@@ -17,4 +17,6 @@ export interface ContentPage {
 export interface GuidePage extends ContentPage {
   aboutServiceId?: string;
   sections: { heading: string; content: string }[];
+  datePublished: string;
+  dateModified: string;
 }

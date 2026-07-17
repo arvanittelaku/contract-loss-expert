@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { SiteEmailLink } from "@/components/SiteEmailLink";
+import { trackConversionEvent } from "@/lib/analytics";
 
 interface CTASectionProps {
   title?: string;
@@ -17,6 +20,9 @@ export function CTASection({
         <p className="mx-auto mt-4 max-w-2xl text-white/90">{description}</p>
         <Link
           href="/contact"
+          onClick={() =>
+            trackConversionEvent("cta_click", { location: "cta_section" })
+          }
           className="mt-8 inline-flex min-h-[44px] items-center justify-center rounded bg-white px-8 py-3 font-semibold text-accent transition-colors hover:bg-white/90"
         >
           Instruct an Expert Witness

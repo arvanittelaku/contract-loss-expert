@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useState, FormEvent, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { SiteEmailLink } from "@/components/SiteEmailLink";
 import { PhoneField, formatPhoneFromFormData } from "./PhoneField";
+import { trackConversionEvent } from "@/lib/analytics";
 
 const lossTypes = [
   "Lost Profits",
@@ -59,6 +60,13 @@ const urgencyOptions = [
 export function ContactForm() {
   const router = useRouter();
   const [status, setStatus] = useState<"idle" | "loading" | "error">("idle");
+  const formStarted = useRef(false);
+
+  function markFormStarted() {
+    if (formStarted.current) return;
+    formStarted.current = true;
+    trackConversionEvent("contact_form_start");
+  }
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -98,6 +106,7 @@ export function ContactForm() {
       });
 
       if (res.ok) {
+        trackConversionEvent("form_submit_success");
         router.push("/thank-you");
       } else {
         setStatus("error");
@@ -112,7 +121,11 @@ export function ContactForm() {
   const labelClass = "mb-1 block text-sm font-medium text-heading";
 
   return (
-    <form onSubmit={handleSubmit} className="min-w-0 space-y-5">
+    <form
+      onSubmit={handleSubmit}
+      onFocus={markFormStarted}
+      className="min-w-0 space-y-5"
+    >
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div className="min-w-0">
           <label htmlFor="name" className={labelClass}>

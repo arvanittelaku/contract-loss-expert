@@ -1,12 +1,19 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { GlossaryTerm } from "@/data/glossary";
 import { glossaryAnchorId } from "@/lib/glossary-slug";
 
-export function GlossarySearch({ terms }: { terms: GlossaryTerm[] }) {
-  const [query, setSearch] = useState("");
+function GlossarySearchInner({ terms }: { terms: GlossaryTerm[] }) {
+  const searchParams = useSearchParams();
+  const initialQuery = searchParams.get("q") ?? "";
+  const [query, setSearch] = useState(initialQuery);
+
+  useEffect(() => {
+    setSearch(searchParams.get("q") ?? "");
+  }, [searchParams]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -83,5 +90,13 @@ export function GlossarySearch({ terms }: { terms: GlossaryTerm[] }) {
         </div>
       )}
     </>
+  );
+}
+
+export function GlossarySearch({ terms }: { terms: GlossaryTerm[] }) {
+  return (
+    <Suspense fallback={<p className="text-body">Loading glossary…</p>}>
+      <GlossarySearchInner terms={terms} />
+    </Suspense>
   );
 }

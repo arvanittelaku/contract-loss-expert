@@ -65,8 +65,8 @@ export default function HomePage() {
     <>
       <JsonLd data={homepageSchema} />
       <PageHero
-        title="Contract Loss Expert Witness Services for Law Firms Worldwide"
-        subtitle="When a contract is breached, the financial loss must be quantified with precision, and defended under cross-examination. We connect law firms and counsel with qualified contract loss expert witnesses: forensic accountants, quantum experts, and economic damages specialists who produce court-ready expert reports for litigation, tribunals, and arbitration."
+        title="English-Law Contract Loss Expert Witness Services"
+        subtitle="When a contract is breached, the financial loss must be quantified with precision and defended under cross-examination. We connect law firms and counsel with qualified contract loss expert witnesses — forensic accountants, quantum experts, and economic damages specialists — for litigation, tribunals, and international arbitration."
       />
       <Section>
         <div className="text-center">

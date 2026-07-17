@@ -2,6 +2,8 @@ import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import { SiteEmailLink } from "@/components/SiteEmailLink";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = createMetadata({
   title: "Privacy Policy | ContractLossExpert.com",
@@ -14,6 +16,12 @@ export const metadata = createMetadata({
 export default function PrivacyPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Privacy Policy", path: "/privacy" },
+        ])}
+      />
       <PageHero title="Privacy Policy" breadcrumbs={[{ label: "Privacy Policy" }]} />
       <Section>
         <article className="prose-content mx-auto max-w-3xl">
@@ -28,7 +36,9 @@ export default function PrivacyPage() {
           <p>
             When you submit an enquiry form, we collect your name, organisation,
             email address, phone number (if provided), and case details you
-            choose to share. We use Formspree to process form submissions.
+            choose to share. Form submissions are stored securely in Google
+            Sheets and may trigger an optional notification webhook to our
+            internal systems.
           </p>
 
           <h2>Lawful Basis</h2>
@@ -72,12 +82,13 @@ export default function PrivacyPage() {
 
           <h2>International Transfers</h2>
           <p>
-            Form data may be processed by Formspree (US-based). Appropriate
-            safeguards are in place including Standard Contractual Clauses where
-            applicable.
+            Form data may be processed by Google (including Google Cloud / Google
+            Sheets infrastructure, which may involve processing in the United
+            States or other countries). Appropriate safeguards are in place
+            including Standard Contractual Clauses where applicable.
           </p>
 
-          <p className="text-sm text-body/70">Last updated: May 2025</p>
+          <p className="text-sm text-body/70">Last updated: July 2026</p>
         </article>
       </Section>
     </>

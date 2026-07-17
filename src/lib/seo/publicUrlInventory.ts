@@ -9,7 +9,7 @@ export const CANONICAL_HOST =
 
 /**
  * Indexable static marketing routes.
- * Excluded: /contact, /thank-you, /privacy, /terms (see SEO-ARCHITECTURE.md Appendix B)
+ * Excluded: /thank-you, /privacy, /terms
  */
 export const APP_STATIC_PATHS = [
   "/",
@@ -20,6 +20,7 @@ export const APP_STATIC_PATHS = [
   "/what-is-a-contract-loss-expert-witness",
   "/qualifications",
   "/how-to-instruct",
+  "/contact",
   "/guides",
   "/glossary",
   "/cookies",
@@ -27,7 +28,6 @@ export const APP_STATIC_PATHS = [
 
 /** Paths that exist but must not appear in the sitemap */
 export const SITEMAP_EXCLUDED_PATHS = [
-  "/contact",
   "/thank-you",
   "/privacy",
   "/terms",
@@ -56,7 +56,7 @@ export function buildPublicUrlInventory(): PublicUrlInventory {
 }
 
 export function toAbsoluteUrl(path: string): string {
-  if (path === "/") return `${CANONICAL_HOST}/`;
+  if (path === "/") return CANONICAL_HOST;
   const normalized = path.startsWith("/") ? path : `/${path}`;
   return `${CANONICAL_HOST}${normalized}`;
 }
@@ -81,7 +81,8 @@ export function getSitemapPriority(path: string): number {
   if (path === "/what-is-a-contract-loss-expert-witness") return 0.9;
   if (
     path === "/qualifications" ||
-    path === "/how-to-instruct"
+    path === "/how-to-instruct" ||
+    path === "/contact"
   ) {
     return 0.88;
   }

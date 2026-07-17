@@ -4,17 +4,26 @@ import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import { SiteEmailLink } from "@/components/SiteEmailLink";
 import { COOKIE_CATEGORY_LABELS, CONSENT_POLICY_VERSION } from "@/lib/cookies/constants";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = createMetadata({
   title: "Cookie Policy | ContractLossExpert.com",
   description:
     "How ContractLossExpert.com uses cookies and similar technologies. Manage your preferences and learn about GDPR-compliant cookie categories.",
   path: "/cookies",
+  // Indexable: unique consent-mechanism and category detail; privacy/terms stay noindex as generic boilerplate.
 });
 
 export default function CookiesPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Cookie Policy", path: "/cookies" },
+        ])}
+      />
       <PageHero
         title="Cookie Policy"
         subtitle="How we use cookies and similar technologies on ContractLossExpert.com, and how you can control your choices."
@@ -93,7 +102,7 @@ export default function CookiesPage() {
           </ul>
           <p>
             Each provider has its own privacy policy. Data may be processed in
-            the, EEA, or United States with appropriate safeguards where
+            the EEA or United States with appropriate safeguards where
             required.
           </p>
 

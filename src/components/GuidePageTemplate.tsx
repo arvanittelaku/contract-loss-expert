@@ -3,7 +3,7 @@ import { Section } from "@/components/Section";
 import { CTASection } from "@/components/CTASection";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { JsonLd } from "@/components/JsonLd";
-import { articleSchema, breadcrumbSchema } from "@/lib/schema";
+import { articleSchema, breadcrumbSchema, faqPageSchema } from "@/lib/schema";
 import type { RelatedLink } from "@/lib/seo-internal-links";
 import type { GuidePage } from "@/data/types";
 import type { BreadcrumbItem } from "@/components/PageHero";
@@ -30,8 +30,11 @@ export function GuidePageTemplate({
       headline: guide.h1,
       description: guide.metaDescription,
       path,
+      datePublished: guide.datePublished,
+      dateModified: guide.dateModified,
       aboutServiceId: guide.aboutServiceId,
     }),
+    faqPageSchema(guide.faqs),
   ];
 
   return (
@@ -59,6 +62,20 @@ export function GuidePageTemplate({
               ))}
             </div>
           ))}
+
+          <h2 className="mt-10 text-xl font-bold text-heading">
+            Frequently Asked Questions
+          </h2>
+          <div className="mt-6 space-y-8">
+            {guide.faqs.map((faq) => (
+              <div key={faq.question}>
+                <h3 className="text-lg font-semibold text-heading">
+                  {faq.question}
+                </h3>
+                <p className="mt-2 text-body leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
 
           <RelatedLinks links={relatedLinks} />
         </article>

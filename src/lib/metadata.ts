@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import { SITE_URL } from "./site";
 
+const OG_IMAGE = {
+  url: "/opengraph-image",
+  width: 1200,
+  height: 630,
+  alt: "ContractLossExpert — contract loss expert witness services",
+};
+
 /** Neutral English + x-default */
 export function buildHreflangAlternates(path: string = "") {
   const url = `${SITE_URL}${path}`;
@@ -46,11 +53,13 @@ export function createMetadata({
       siteName: "ContractLossExpert",
       locale: "en",
       type: "website",
+      images: [OG_IMAGE],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [OG_IMAGE.url],
     },
     robots,
     ...(googleVerification && {

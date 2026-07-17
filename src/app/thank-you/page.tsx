@@ -3,6 +3,9 @@ import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import { SiteEmailLink } from "@/components/SiteEmailLink";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
+import { ThankYouAnalytics } from "./ThankYouAnalytics";
 
 export const metadata = createMetadata({
   title: "Thank You | ContractLossExpert.com",
@@ -15,6 +18,13 @@ export const metadata = createMetadata({
 export default function ThankYouPage() {
   return (
     <>
+      <ThankYouAnalytics />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Thank You", path: "/thank-you" },
+        ])}
+      />
       <PageHero
         title="Thank You"
         subtitle="Your enquiry has been received. We will respond within 1 business day with suitable contract loss expert witness options for your case."

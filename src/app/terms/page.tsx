@@ -2,6 +2,8 @@ import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import { SiteEmailLink } from "@/components/SiteEmailLink";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = createMetadata({
   title: "Terms of Use | ContractLossExpert.com",
@@ -14,6 +16,12 @@ export const metadata = createMetadata({
 export default function TermsPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Terms of Use", path: "/terms" },
+        ])}
+      />
       <PageHero title="Terms of Use" breadcrumbs={[{ label: "Terms of Use" }]} />
       <Section>
         <article className="prose-content mx-auto max-w-3xl">
@@ -56,8 +64,8 @@ export default function TermsPage() {
 
           <h2>Governing Law</h2>
           <p>
-            These terms are governed by the laws of applicable jurisdictions. The courts
-            of applicable jurisdictions have exclusive jurisdiction.
+            These terms are governed by the laws of England and Wales. The courts
+            of England and Wales have exclusive jurisdiction.
           </p>
 
           <h2>Contact</h2>
@@ -66,7 +74,7 @@ export default function TermsPage() {
             <SiteEmailLink className="text-accent hover:underline" />.
           </p>
 
-          <p className="text-sm text-body/70">Last updated: May 2025</p>
+          <p className="text-sm text-body/70">Last updated: July 2026</p>
         </article>
       </Section>
     </>

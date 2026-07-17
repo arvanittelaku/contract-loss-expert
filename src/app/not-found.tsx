@@ -1,13 +1,15 @@
-import Link from "next/link";
-import type { Metadata } from "next";
+import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
+import Link from "next/link";
 
-export const metadata: Metadata = {
+export const metadata = createMetadata({
   title: "Page Not Found | ContractLossExpert.com",
   description: "The page you requested could not be found.",
-  robots: { index: false, follow: true },
-};
+  path: "/404",
+  noindex: true,
+  nofollow: true,
+});
 
 export default function NotFound() {
   return (

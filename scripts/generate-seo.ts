@@ -51,7 +51,6 @@ function renderRobots(): string {
 User-agent: *
 Allow: /
 
-Disallow: /thank-you
 Disallow: /api/
 
 Sitemap: ${CANONICAL_HOST}/sitemap.xml

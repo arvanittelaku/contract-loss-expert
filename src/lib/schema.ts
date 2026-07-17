@@ -83,9 +83,12 @@ export const organizationSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   email: SITE_EMAIL,
-  areaServed: {
-    "@type": "Place",
-    name: "Worldwide",
+  areaServed: "United Kingdom",
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer service",
+    email: SITE_EMAIL,
+    availableLanguage: "English",
   },
   sameAs: [LINKEDIN_URL],
 };
@@ -146,21 +149,3 @@ export function serviceNode(
   };
 }
 
-export function personSchema(expert: {
-  name: string;
-  jobTitle: string;
-  description: string;
-  credentials: string[];
-}): object {
-  return {
-    "@type": "Person",
-    name: expert.name,
-    jobTitle: expert.jobTitle,
-    description: expert.description,
-    knowsAbout: expert.credentials,
-    worksFor: {
-      "@type": "Organization",
-      name: SITE_NAME,
-    },
-  };
-}
