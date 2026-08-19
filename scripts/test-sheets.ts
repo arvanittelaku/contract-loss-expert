@@ -18,16 +18,9 @@ async function test() {
       buildLeadSheetRow({
         fullName: "Test Entry",
         email: "test@example.com",
-        phone: "+44 7700 900000",
+        phone: "+1 555 123 4567",
         organisation: "Test Firm LLP",
-        lossType: "Lost Profits",
-        sector: "Construction / Engineering",
-        court: "High Court (TCC)",
-        expertType: "SJE",
-        claimValue: "£500k–£5M",
-        deadline: "2026-06-01",
-        urgency: "Planning ahead",
-        description: "Test row from scripts/test-sheets.ts",
+        message: "Test row from scripts/test-sheets.ts",
       })
     );
     console.log("Row written:", result.updatedRange);

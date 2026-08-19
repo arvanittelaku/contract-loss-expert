@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
-import { isGoogleSheetsConfigured } from "@/lib/google-sheets";
+import {
+  getLeadWebhookUrl,
+  isGoogleSheetsConfigured,
+} from "@/lib/google-sheets";
 import {
   appendLeadToSheet,
   notifyLeadWebhook,
@@ -7,11 +10,11 @@ import {
 } from "@/lib/lead-submission";
 
 export async function POST(request: Request) {
-  const webhookUrl =
-    process.env.Lead_notification_url || process.env.LEAD_NOTIFICATION_URL;
+  const webhookUrl = getLeadWebhookUrl();
   const sheetsConfigured = isGoogleSheetsConfigured();
 
   if (!sheetsConfigured && !webhookUrl) {
+    console.error("Lead submission not configured: missing Google Sheets env vars and webhook URL");
     return NextResponse.json(
       { error: "Lead submission is not configured" },
       { status: 500 }
@@ -39,8 +42,8 @@ export async function POST(request: Request) {
     } catch (err) {
       console.error("Google Sheets write failed:", {
         message: err instanceof Error ? err.message : "Unknown error",
-        sheetId: process.env.GOOGLE_SHEET_ID?.slice(0, 8) + "...",
-        tab: process.env.GOOGLE_SHEET_TAB_NAME,
+        sheetId: process.env.GOOGLE_SHEET_ID?.trim().slice(0, 8) + "...",
+        tab: process.env.GOOGLE_SHEET_TAB_NAME?.trim(),
       });
       return NextResponse.json(
         { error: "Failed to save submission" },

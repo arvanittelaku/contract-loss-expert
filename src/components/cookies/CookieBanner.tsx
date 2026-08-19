@@ -73,7 +73,7 @@ export function CookieBanner() {
               <button
                 type="button"
                 onClick={acceptAll}
-                className="min-h-[44px] w-full rounded bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-md transition-colors hover:bg-[#0d47a1] sm:w-auto sm:px-5"
+                className="min-h-[44px] w-full rounded bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-md transition-colors hover:bg-[#a34a32] sm:w-auto sm:px-5"
               >
                 Accept All
               </button>

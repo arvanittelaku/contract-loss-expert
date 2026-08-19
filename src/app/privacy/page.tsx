@@ -82,10 +82,9 @@ export default function PrivacyPage() {
 
           <h2>International Transfers</h2>
           <p>
-            Form data may be processed by Google (including Google Cloud / Google
-            Sheets infrastructure, which may involve processing in the United
-            States or other countries). Appropriate safeguards are in place
-            including Standard Contractual Clauses where applicable.
+            Form data may be processed by Google (including Google Cloud /
+            Google Sheets infrastructure). Appropriate safeguards are in place
+            where required by applicable law.
           </p>
 
           <p className="text-sm text-body/70">Last updated: July 2026</p>

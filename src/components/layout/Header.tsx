@@ -2,45 +2,14 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { NavDropdown } from "./NavDropdown";
-import {
-  navServiceLinks,
-  navLossTypeLinks,
-  navCaseTypeLinks,
-  navSectorLinks,
-  navResourceLinks,
-} from "@/data/nav";
+import { SiteEmailLink } from "@/components/SiteEmailLink";
 
-const mobileGroups = [
-  {
-    title: "Services",
-    links: [
-      { href: "/services", label: "All Services" },
-      ...navServiceLinks,
-    ],
-  },
-  {
-    title: "Loss Types",
-    links: navLossTypeLinks,
-  },
-  {
-    title: "Case Types",
-    links: [
-      { href: "/case-types", label: "All Case Types" },
-      ...navCaseTypeLinks,
-    ],
-  },
-  {
-    title: "Sectors",
-    links: [
-      { href: "/sectors", label: "All Sectors" },
-      ...navSectorLinks,
-    ],
-  },
-  {
-    title: "Resources",
-    links: navResourceLinks,
-  },
+const navLinks = [
+  { href: "/services", label: "Services" },
+  { href: "/case-types", label: "Case Types" },
+  { href: "/sectors", label: "Sectors" },
+  { href: "/guides", label: "Guides" },
+  { href: "/how-to-instruct", label: "How to Instruct" },
 ];
 
 export function Header() {
@@ -48,71 +17,59 @@ export function Header() {
   const closeMobile = () => setOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-white shadow-sm">
-      <div className="mx-auto flex min-w-0 max-w-7xl items-center justify-between gap-2 px-4 py-3 sm:gap-4 sm:px-6 lg:px-8">
-        <Link
-          href="/"
-          className="min-w-0 shrink truncate text-base font-bold text-primary sm:text-lg lg:text-xl"
-          onClick={closeMobile}
-        >
-          ContractLoss<span className="text-accent">Expert</span>
-        </Link>
+    <header className="border-b border-border">
+      <div className="border-b border-border bg-section-alt">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-2 text-xs text-body sm:px-6">
+          <p className="tracking-wide">
+            Contract loss expert witnesses for legal teams worldwide
+          </p>
+          <SiteEmailLink className="font-medium text-primary hover:text-accent" />
+        </div>
+      </div>
 
-        <nav
-          className="hidden items-center gap-0.5 lg:flex"
-          aria-label="Main"
-        >
+      <div className="bg-primary text-white">
+        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
           <Link
             href="/"
-            className="rounded px-2 py-2 text-sm text-body transition-colors hover:bg-section-alt hover:text-primary"
+            className="font-display min-w-0 leading-tight"
+            onClick={closeMobile}
           >
-            Home
+            <span className="block text-lg font-semibold tracking-tight sm:text-xl">
+              Contract Loss
+            </span>
+            <span className="block text-sm font-normal tracking-[0.2em] text-white/70 uppercase">
+              Expert Witness
+            </span>
           </Link>
-          <NavDropdown
-            label="Services"
-            href="/services"
-            items={navServiceLinks}
-          />
-          <NavDropdown
-            label="Loss Types"
-            href="/loss-types"
-            items={navLossTypeLinks}
-          />
-          <NavDropdown
-            label="Case Types"
-            href="/case-types"
-            items={navCaseTypeLinks}
-          />
-          <NavDropdown
-            label="Sectors"
-            href="/sectors"
-            items={navSectorLinks}
-          />
-          <NavDropdown
-            label="Resources"
-            href="/guides"
-            items={navResourceLinks}
-          />
-        </nav>
 
-        <div className="flex items-center gap-3">
-          <Link
-            href="/contact"
-            className="hidden min-h-[44px] items-center rounded bg-accent px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#0d47a1] lg:inline-flex"
-          >
-            Contact Us
-          </Link>
+          <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="relative px-3 py-2 text-sm text-white/85 transition-colors hover:text-white after:absolute after:inset-x-3 after:bottom-1 after:h-px after:scale-x-0 after:bg-accent after:transition-transform hover:after:scale-x-100"
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              href="/contact"
+              className="ml-3 inline-flex min-h-[44px] items-center rounded-sm bg-accent px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#a34a32]"
+            >
+              Contact
+            </Link>
+          </nav>
 
           <button
             type="button"
-            className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded border border-border p-2 lg:hidden"
+            className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-sm border border-white/25 p-2 md:hidden"
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen(!open)}
           >
             <svg
-              className="h-6 w-6 text-primary"
+              className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -141,46 +98,41 @@ export function Header() {
       {open && (
         <div
           id="mobile-menu"
-          className="max-h-[80vh] overflow-y-auto border-t border-border bg-white lg:hidden"
+          className="border-b border-border bg-surface md:hidden"
         >
-          <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6">
-            <Link
-              href="/"
-              className="mb-4 flex min-h-[44px] items-center text-sm font-medium text-body"
-              onClick={closeMobile}
-            >
-              Home
-            </Link>
-            <div className="grid gap-6 sm:grid-cols-2">
-              {mobileGroups.map((group) => (
-                <div key={group.title}>
-                  <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-primary/60">
-                    {group.title}
-                  </p>
-                  <ul className="space-y-1">
-                    {group.links.map((link) => (
-                      <li key={link.href + link.label}>
-                        <Link
-                          href={link.href}
-                          className="flex min-h-[44px] items-center rounded px-2 text-sm text-body hover:bg-section-alt"
-                          onClick={closeMobile}
-                        >
-                          {link.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+          <nav className="mx-auto max-w-6xl px-4 py-4 sm:px-6" aria-label="Mobile">
+            <ul className="divide-y divide-border">
+              <li>
+                <Link
+                  href="/"
+                  className="flex min-h-[44px] items-center text-sm font-medium text-heading"
+                  onClick={closeMobile}
+                >
+                  Home
+                </Link>
+              </li>
+              {navLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="flex min-h-[44px] items-center text-sm text-body"
+                    onClick={closeMobile}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
               ))}
-            </div>
-            <Link
-              href="/contact"
-              className="mt-4 flex min-h-[44px] w-full items-center justify-center rounded bg-accent px-4 py-3 font-semibold text-white"
-              onClick={closeMobile}
-            >
-              Contact Us
-            </Link>
-          </div>
+              <li>
+                <Link
+                  href="/contact"
+                  className="mt-2 flex min-h-[44px] items-center justify-center rounded-sm bg-accent text-sm font-semibold text-white"
+                  onClick={closeMobile}
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       )}
     </header>

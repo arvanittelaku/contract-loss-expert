@@ -2,21 +2,14 @@ import { appendRow, type CellValue } from "@/lib/google-sheets";
 
 export const BRAND_NAME = "ContractLossExpert";
 
-/** Row 1 headers in Google Sheets (Sheet9), must match column order in buildLeadSheetRow */
+/** Row 1 headers in Google Sheets, must match column order in buildLeadSheetRow */
 export const LEAD_SHEET_HEADERS = [
   "Timestamp",
   "Full Name",
   "Email",
   "Phone Number",
   "Organisation",
-  "Loss Type",
-  "Sector",
-  "Court / Forum",
-  "Expert Type",
-  "Claim Value",
-  "Deadline Date",
-  "Urgency",
-  "Case Description",
+  "Message",
   "Brand Name",
 ] as const;
 
@@ -25,14 +18,7 @@ export interface LeadSubmission {
   email: string;
   phone: string;
   organisation?: string;
-  lossType?: string;
-  sector?: string;
-  court?: string;
-  expertType?: string;
-  claimValue?: string;
-  deadline?: string;
-  urgency?: string;
-  description?: string;
+  message?: string;
 }
 
 function sanitize(str: string): string {
@@ -44,7 +30,7 @@ function opt(value: unknown): string {
   return sanitize(String(value));
 }
 
-/** Prevent Sheets from treating +44… as a formula when using USER_ENTERED */
+/** Prevent Sheets from treating +1… as a formula when using USER_ENTERED */
 function formatPhoneForSheet(phone: string): string {
   if (!phone) return "";
   if (phone.startsWith("+") || phone.startsWith("=") || phone.startsWith("-")) {
@@ -67,14 +53,7 @@ export function parseLeadBody(body: unknown): LeadSubmission | null {
     email,
     phone: b.phone != null ? String(b.phone).trim() : "",
     organisation: opt(b.organisation),
-    lossType: opt(b.lossType),
-    sector: opt(b.sector),
-    court: opt(b.court),
-    expertType: opt(b.expertType),
-    claimValue: opt(b.claimValue),
-    deadline: opt(b.deadline),
-    urgency: opt(b.urgency),
-    description: opt(b.description),
+    message: opt(b.message),
   };
 }
 
@@ -85,14 +64,7 @@ export function buildLeadSheetRow(lead: LeadSubmission): CellValue[] {
     lead.email,
     formatPhoneForSheet(lead.phone),
     lead.organisation ?? "",
-    lead.lossType ?? "",
-    lead.sector ?? "",
-    lead.court ?? "",
-    lead.expertType ?? "",
-    lead.claimValue ?? "",
-    lead.deadline ?? "",
-    lead.urgency ?? "",
-    lead.description ?? "",
+    lead.message ?? "",
     BRAND_NAME,
   ];
 }

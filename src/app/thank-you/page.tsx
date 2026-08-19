@@ -38,7 +38,7 @@ export default function ThankYouPage() {
           </p>
           <Link
             href="/"
-            className="mt-8 inline-flex min-h-[44px] items-center justify-center rounded bg-accent px-8 py-3 font-semibold text-white hover:bg-[#0d47a1]"
+            className="mt-8 inline-flex min-h-[44px] items-center justify-center rounded bg-accent px-8 py-3 font-semibold text-white hover:bg-[#a34a32]"
           >
             Return to Homepage
           </Link>

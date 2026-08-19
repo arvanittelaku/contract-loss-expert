@@ -83,7 +83,7 @@ export const organizationSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   email: SITE_EMAIL,
-  areaServed: "United Kingdom",
+  areaServed: "Worldwide",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer service",
@@ -101,7 +101,7 @@ export function professionalServiceSchema(
     "@id": `${SITE_URL}/#service`,
     name: "Contract Loss Expert Witness",
     provider: { "@id": `${SITE_URL}/#organization` },
-    areaServed: "United Kingdom",
+    areaServed: "Worldwide",
     serviceType: "Contract Loss Expert Witness",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -145,7 +145,7 @@ export function serviceNode(
     name,
     description,
     provider: { "@id": `${SITE_URL}/#organization` },
-    areaServed: "United Kingdom",
+    areaServed: "Worldwide",
   };
 }
 

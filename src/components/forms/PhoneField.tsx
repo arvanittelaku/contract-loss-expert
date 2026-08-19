@@ -2,8 +2,8 @@
 
 const PREFIXES = [
   { value: "+44", label: "+44" },
+  { value: "+1", label: "+1" },
   { value: "+353", label: "IE +353" },
-  { value: "+1", label: "US/CA +1" },
   { value: "+61", label: "AU +61" },
   { value: "+49", label: "DE +49" },
   { value: "+33", label: "FR +33" },

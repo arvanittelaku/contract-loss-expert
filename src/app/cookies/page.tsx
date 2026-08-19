@@ -101,9 +101,8 @@ export default function CookiesPage() {
             <li>Hotjar (Hotjar Ltd.)</li>
           </ul>
           <p>
-            Each provider has its own privacy policy. Data may be processed in
-            the EEA or United States with appropriate safeguards where
-            required.
+            Each provider has its own privacy policy. Data may be processed
+            outside your jurisdiction with appropriate safeguards where required.
           </p>
 
           <h2>How Long We Store Consent</h2>

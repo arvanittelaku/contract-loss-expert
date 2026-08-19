@@ -1,14 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Fraunces, IBM_Plex_Sans } from "next/font/google";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CookieConsentRoot } from "@/components/cookies/CookieConsentRoot";
 import { createMetadata } from "@/lib/metadata";
 import "./globals.css";
 
-const inter = Inter({
+const fraunces = Fraunces({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-fraunces",
+  display: "swap",
+});
+
+const plex = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-plex",
   display: "swap",
 });
 
@@ -16,7 +23,7 @@ export const metadata: Metadata = createMetadata({
   title:
     "Contract Loss Expert Witness | Lost Profits & Breach of Contract Damages",
   description:
-    "Find qualified English-law contract loss expert witnesses for courts, tribunals, and international arbitration. Forensic accountants and quantum experts for lost profits, wasted expenditure, and breach of contract damages.",
+    "Connect with qualified contract loss expert witnesses for courts, tribunals, arbitration, and mediation worldwide. Forensic accountants and economic damages specialists for lost profits, wasted expenditure, and breach of contract claims.",
   path: "/",
 });
 
@@ -26,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full`}>
+    <html lang="en" className={`${fraunces.variable} ${plex.variable} h-full`}>
       <body className="flex min-h-full flex-col antialiased">
         <CookieConsentRoot>
           <Header />

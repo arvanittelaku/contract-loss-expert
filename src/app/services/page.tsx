@@ -47,7 +47,7 @@ export default function ServicesPage() {
       />
       <PageHero
         title="Contract Loss Expert Witness Services"
-        subtitle="From lost profits quantification and wasted expenditure analysis to construction quantum claims and professional negligence damages, our experts produce court-ready expert reports for every type of contract loss dispute worldwide."
+        subtitle="From lost profits quantification and wasted expenditure analysis to construction quantum claims and professional negligence damages, our experts produce court-ready expert reports for every type of contract loss dispute."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },

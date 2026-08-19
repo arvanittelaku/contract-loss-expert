@@ -47,10 +47,10 @@ export default function TermsPage() {
             the responsibility of the instructing party.
           </p>
 
-          <h2>Fees</h2>
+          <h2>Expert Engagements</h2>
           <p>
-            Expert witness fees are agreed directly between the instructing party
-            and the expert. We do not charge referral fees to clients unless
+            Expert witness engagements are arranged directly between the instructing
+            party and the expert. We do not charge referral fees to clients unless
             separately agreed in writing.
           </p>
 

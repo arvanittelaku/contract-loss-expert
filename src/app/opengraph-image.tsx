@@ -15,30 +15,38 @@ export default function OpenGraphImage() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
+          justifyContent: "flex-end",
           padding: 72,
-          background: `linear-gradient(135deg, ${COLORS.primary} 0%, #0f172a 55%, ${COLORS.accent} 100%)`,
-          color: "white",
-          fontFamily: "system-ui, sans-serif",
+          background: COLORS.background,
+          color: COLORS.primary,
+          fontFamily: "Georgia, serif",
         }}
       >
         <div
           style={{
-            fontSize: 28,
-            fontWeight: 700,
-            letterSpacing: "0.08em",
+            width: 80,
+            height: 4,
+            background: COLORS.accent,
+            marginBottom: 32,
+          }}
+        />
+        <div
+          style={{
+            fontSize: 22,
+            fontWeight: 600,
+            letterSpacing: "0.12em",
             textTransform: "uppercase",
-            color: COLORS.highlight,
-            marginBottom: 24,
+            color: COLORS.accent,
+            marginBottom: 20,
           }}
         >
           {SITE_NAME}
         </div>
         <div
           style={{
-            fontSize: 64,
-            fontWeight: 700,
-            lineHeight: 1.1,
+            fontSize: 58,
+            fontWeight: 600,
+            lineHeight: 1.15,
             maxWidth: 900,
           }}
         >
@@ -46,11 +54,11 @@ export default function OpenGraphImage() {
         </div>
         <div
           style={{
-            marginTop: 28,
-            fontSize: 32,
+            marginTop: 24,
+            fontSize: 28,
             lineHeight: 1.4,
             maxWidth: 820,
-            color: "rgba(255,255,255,0.92)",
+            color: COLORS.body,
           }}
         >
           Lost profits, wasted expenditure, and breach of contract quantum
