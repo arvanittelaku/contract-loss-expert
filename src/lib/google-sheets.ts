@@ -128,7 +128,3 @@ export function isGoogleSheetsConfigured(): boolean {
       readEnv("GOOGLE_SHEET_ID")
   );
 }
-
-export function getLeadWebhookUrl(): string | undefined {
-  return readEnv("Lead_notification_url") || readEnv("LEAD_NOTIFICATION_URL");
-}

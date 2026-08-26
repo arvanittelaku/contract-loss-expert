@@ -4,7 +4,7 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# /api/submit-lead is handled by Next.js (Google Sheets + optional n8n webhook)
+# /api/submit-lead → Next.js route (Google Sheets + n8n webhook with domain)
 
 [[headers]]
   for = "/sitemap.xml"

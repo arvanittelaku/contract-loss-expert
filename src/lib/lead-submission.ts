@@ -1,6 +1,7 @@
 import { appendRow, type CellValue } from "@/lib/google-sheets";
+import { BRAND_NAME } from "@/lib/leadNotification";
 
-export const BRAND_NAME = "ContractLossExpert";
+export { BRAND_NAME };
 
 /** Row 1 headers in Google Sheets, must match column order in buildLeadSheetRow */
 export const LEAD_SHEET_HEADERS = [
@@ -17,6 +18,7 @@ export interface LeadSubmission {
   fullName: string;
   email: string;
   phone: string;
+  formType?: "contact" | "instruct";
   organisation?: string;
   message?: string;
 }
@@ -48,10 +50,13 @@ export function parseLeadBody(body: unknown): LeadSubmission | null {
 
   if (!fullName || !email) return null;
 
+  const formType = b.formType === "instruct" ? "instruct" : "contact";
+
   return {
     fullName,
     email,
     phone: b.phone != null ? String(b.phone).trim() : "",
+    formType,
     organisation: opt(b.organisation),
     message: opt(b.message),
   };
@@ -69,32 +74,6 @@ export function buildLeadSheetRow(lead: LeadSubmission): CellValue[] {
   ];
 }
 
-export function buildWebhookPayload(lead: LeadSubmission) {
-  return {
-    "Full Name": lead.fullName,
-    Email: lead.email,
-    "Phone Number": lead.phone,
-    "Brand name": BRAND_NAME,
-  };
-}
-
 export async function appendLeadToSheet(lead: LeadSubmission): Promise<void> {
   await appendRow(buildLeadSheetRow(lead));
-}
-
-export async function notifyLeadWebhook(
-  lead: LeadSubmission,
-  webhookUrl: string
-): Promise<boolean> {
-  try {
-    const res = await fetch(webhookUrl, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(buildWebhookPayload(lead)),
-    });
-    return res.ok;
-  } catch (err) {
-    console.error("Lead webhook failed:", err);
-    return false;
-  }
 }

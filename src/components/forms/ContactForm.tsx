@@ -35,7 +35,8 @@ export function ContactForm() {
     const payload = {
       fullName,
       email,
-      phone,
+      phone: phone || "",
+      formType: "contact" as const,
       organisation: String(data.get("organisation") || "").trim(),
       message: String(data.get("message") || "").trim(),
     };

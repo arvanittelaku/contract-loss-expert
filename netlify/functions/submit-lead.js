@@ -1,9 +1,20 @@
 /**
- * Legacy standalone function (n8n webhook only).
- * Production uses Next.js /api/submit-lead (Google Sheets + optional webhook).
- * Update BRAND_NAME per site when copying to another project.
+ * Netlify function: POST outbound lead to n8n (five-key JSON).
+ * On Netlify with @netlify/plugin-nextjs, /api/submit-lead is handled by
+ * app/api/submit-lead/route.ts (Google Sheets + same webhook payload).
+ * This function mirrors lib/leadNotification.ts for netlify dev / copy-paste.
  */
 const BRAND_NAME = "ContractLossExpert";
+
+function getSiteDomain() {
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "").trim();
+  if (!siteUrl) return "contractlossexpert.com";
+  try {
+    return new URL(siteUrl).hostname.replace(/^www\./i, "");
+  } catch {
+    return "contractlossexpert.com";
+  }
+}
 
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
@@ -11,7 +22,8 @@ exports.handler = async (event) => {
   }
 
   const webhookUrl =
-    process.env.Lead_notification_url || process.env.LEAD_NOTIFICATION_URL;
+    process.env.Lead_notification_url?.trim() ||
+    process.env.LEAD_NOTIFICATION_URL?.trim();
 
   if (!webhookUrl) {
     console.error("Lead_notification_url is not configured");
@@ -39,6 +51,7 @@ exports.handler = async (event) => {
     Email: email,
     "Phone Number": phone,
     "Brand name": BRAND_NAME,
+    domain: getSiteDomain(),
   };
 
   try {

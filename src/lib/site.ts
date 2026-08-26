@@ -7,6 +7,15 @@ export const SITE_EMAIL = "contact@contractlossexpert.com";
 export const LINKEDIN_URL =
   "https://www.linkedin.com/company/contract-loss-expert";
 
+/** Hostname for n8n webhook `domain` field — no protocol, no www */
+export function getSiteDomain(): string {
+  try {
+    return new URL(SITE_URL).hostname.replace(/^www\./i, "");
+  } catch {
+    return "contractlossexpert.com";
+  }
+}
+
 export const COLORS = {
   primary: "#1A2E1A",
   accent: "#C45C3E",
