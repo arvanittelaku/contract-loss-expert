@@ -6,6 +6,10 @@ import {
 } from "@/lib/leadNotification";
 import { appendLeadToSheet, parseLeadBody } from "@/lib/lead-submission";
 
+/**
+ * POST /api/submit-lead — webhook primary.
+ * Optional Google Sheets: one shared tab + Form Type; soft-fail only.
+ */
 export async function POST(request: Request) {
   const webhookUrl = getLeadWebhookUrl();
   const sheetsConfigured = isGoogleSheetsConfigured();
@@ -35,22 +39,7 @@ export async function POST(request: Request) {
     );
   }
 
-  if (sheetsConfigured) {
-    try {
-      await appendLeadToSheet(lead);
-    } catch (err) {
-      console.error("Google Sheets write failed:", {
-        message: err instanceof Error ? err.message : "Unknown error",
-        sheetId: process.env.GOOGLE_SHEET_ID?.trim().slice(0, 8) + "...",
-        tab: process.env.GOOGLE_SHEET_TAB_NAME?.trim(),
-      });
-      return NextResponse.json(
-        { error: "Failed to save submission" },
-        { status: 502 }
-      );
-    }
-  }
-
+  // Webhook primary — hard-fail only when configured and delivery fails.
   if (webhookUrl) {
     const webhookOk = await notifyLeadWebhook(
       {
@@ -60,8 +49,27 @@ export async function POST(request: Request) {
       },
       webhookUrl
     );
-    if (!webhookOk && !sheetsConfigured) {
+    if (!webhookOk) {
       return NextResponse.json({ error: "Failed to deliver lead" }, { status: 502 });
+    }
+  }
+
+  // Soft-fail Sheets — never block a successful webhook.
+  if (sheetsConfigured) {
+    try {
+      await appendLeadToSheet(lead);
+    } catch (err) {
+      console.error("Google Sheets error (soft-fail):", {
+        message: err instanceof Error ? err.message : "Unknown error",
+        sheetId: process.env.GOOGLE_SHEET_ID?.trim().slice(0, 8) + "...",
+        tab: process.env.GOOGLE_SHEET_TAB_NAME?.trim(),
+      });
+      if (!webhookUrl) {
+        return NextResponse.json(
+          { error: "Failed to save submission" },
+          { status: 502 }
+        );
+      }
     }
   }
 

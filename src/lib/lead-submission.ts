@@ -3,15 +3,16 @@ import { BRAND_NAME } from "@/lib/leadNotification";
 
 export { BRAND_NAME };
 
-/** Row 1 headers in Google Sheets, must match column order in buildLeadSheetRow */
+/** Row 1 headers — one shared GOOGLE_SHEET_TAB_NAME; Form Type distinguishes rows. */
 export const LEAD_SHEET_HEADERS = [
   "Timestamp",
+  "Brand",
+  "Form Type",
   "Full Name",
   "Email",
   "Phone Number",
   "Organisation",
   "Message",
-  "Brand Name",
 ] as const;
 
 export interface LeadSubmission {
@@ -41,6 +42,10 @@ function formatPhoneForSheet(phone: string): string {
   return phone;
 }
 
+export function resolveFormTypeLabel(formType?: string): "Contact" | "Instruct" {
+  return formType === "instruct" ? "Instruct" : "Contact";
+}
+
 export function parseLeadBody(body: unknown): LeadSubmission | null {
   if (!body || typeof body !== "object") return null;
 
@@ -65,15 +70,19 @@ export function parseLeadBody(body: unknown): LeadSubmission | null {
 export function buildLeadSheetRow(lead: LeadSubmission): CellValue[] {
   return [
     new Date().toISOString(),
+    BRAND_NAME,
+    resolveFormTypeLabel(lead.formType),
     lead.fullName,
     lead.email,
     formatPhoneForSheet(lead.phone),
     lead.organisation ?? "",
     lead.message ?? "",
-    BRAND_NAME,
   ];
 }
 
+/**
+ * Appends a lead row. Throws on API errors — callers soft-fail so webhook stays primary.
+ */
 export async function appendLeadToSheet(lead: LeadSubmission): Promise<void> {
   await appendRow(buildLeadSheetRow(lead));
 }

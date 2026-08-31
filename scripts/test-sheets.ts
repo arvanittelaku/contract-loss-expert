@@ -19,6 +19,7 @@ async function test() {
         fullName: "Test Entry",
         email: "test@example.com",
         phone: "+1 555 123 4567",
+        formType: "contact",
         organisation: "Test Firm LLP",
         message: "Test row from scripts/test-sheets.ts",
       })
