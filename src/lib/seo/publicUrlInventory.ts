@@ -2,10 +2,10 @@ import { caseTypeSlugs } from "@/data/case-types";
 import { sectorSlugs } from "@/data/sectors";
 import { guideSlugs } from "@/data/guides";
 
-/** Canonical host for sitemap and robots, must match middleware www redirect */
-export const CANONICAL_HOST =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://www.contractlossexpert.com";
+import { SITE_URL } from "../site";
+
+/** Canonical host for sitemap and robots */
+export const CANONICAL_HOST = SITE_URL;
 
 /**
  * Indexable static marketing routes.

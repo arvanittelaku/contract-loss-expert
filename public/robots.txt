@@ -4,4 +4,4 @@ Allow: /
 
 Disallow: /api/
 
-Sitemap: https://www.contractlossexpert.com/sitemap.xml
+Sitemap: https://contractlossexpert.com/sitemap.xml
